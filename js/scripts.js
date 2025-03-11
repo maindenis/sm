@@ -69,4 +69,16 @@ $(document).ready(function() {
         }
     });
 
+    // -----------------
+
+    $(".tab_link").on("click", function(e) {
+        parent = $(this).closest(".tabs_list");
+        parent.find(".tab_link").removeClass("active");
+        $(this).addClass("active");
+    });
+
+    // -----------------
+
+    Fancybox.bind("[data-fancybox]", {});
+
 });
