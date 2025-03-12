@@ -83,6 +83,13 @@ $(document).ready(function() {
 
     // -----------------
 
+    $(".dr_parent").each(function() {
+        if(!$(this).hasClass("active")) {
+            dr = $(this).find(".dr_content");
+            dr.slideUp(300);
+        }
+    });
+
     $(".dr_title").on("click", function(e) {
       e.preventDefault();
       parent = $(this).closest(".dr_parent");

@@ -962,21 +962,122 @@ textarea:focus {
     color: #FDFDFD;
 }
 
-
-
 /*-- /Section 6 - Main Pag --*/
 
+/*-- Section 7 - Main Page --*/
 
 .faq_item {
+    border-bottom: 1px solid #D5D1D1;
 }
+
 .faq_item_title {
+    padding: 30px 120px 40px 0;
     position: relative;
     cursor: pointer;
 }
-.dr_content {
-    display: none;
+
+.faq_item_title svg {
+    position: absolute;
+    top: calc(50% - 20px);
+    right: 70px;
+    -webkit-transition-property: transform;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: transform;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: transform;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: transform;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: transform;
+    transition-duration: .3s;
+    transition-timing-function: ease;
 }
 
+.faq_item.active .faq_item_title svg {
+    transform: rotate(45deg);
+}
+
+.faq_item.active .faq_item_title svg rect {
+    stroke: #977AD2;
+}
+
+/*.dr_content {
+    display: none;
+}*/
+
+.dr_parent.active .dr_content {
+    display: block;
+}
+
+.faq_item_content {
+    margin-top: -22px;
+    padding: 0 24% 57px 8%;
+}
+
+.faq_item_title h3 {
+    font-size: 30px;
+    line-height: 42px;
+    color: #71727A;
+    -webkit-transition-property: color;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: color;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: color;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: color;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: color;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.dr_parent.active .faq_item_title h3 {
+    color: #977AD2;
+}
+
+.faq_item_content p {
+    font-size: 21px;
+    line-height: 34px;
+    color: #71727A;
+}
+
+.faq_item_content p + p {
+    padding-top: 13px;
+}
+
+.faq_item_content p span {
+    color: #292A2E;
+}
+
+.faq_item_content ul {
+    padding-left: 24px;
+}
+
+.faq_item_content ul li {
+    list-style: decimal;
+    padding: 12px 0 12px 0;
+    font-size: 21px;
+    line-height: 34px;
+    color: #71727A;
+}
+
+/*-- /Section 7 - Main Page --*/
 
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
