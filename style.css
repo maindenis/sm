@@ -55,7 +55,7 @@ body {
 }
 
 body {
-
+    background: #FDFDFD;
 }
 
 .wrapper {
@@ -1078,6 +1078,142 @@ textarea:focus {
 }
 
 /*-- /Section 7 - Main Page --*/
+
+/*-- Section 8 - Main Page --*/
+
+.sect_8_mp {
+
+}
+
+.callback_two_cols {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.callback_two_cols > div:nth-child(1) {
+    display: flex;
+    width: calc(100% - 618px);
+    padding: 5px 130px 10px 0;
+}
+
+.callback_two_cols > div:nth-child(2) {
+    width: 618px;
+}
+
+.callback_content {
+    display: flex;
+    flex-direction: column;
+}
+
+.callback_header {
+    height: 100%;
+    flex: 1;
+}
+
+.callback_header h3 {
+    padding-bottom: 15px;
+    font-size: 30px;
+    line-height: 42px;
+    color: #71727A;
+}
+
+.callback_header h2 {
+
+}
+
+.callback_header h2 span {
+    font-size: 49px;
+    color: #71727A;
+}
+
+.formn_templ {
+    display: flex;
+    padding-bottom: 12px;
+}
+
+.formn_templ > div:nth-child(1) {
+    width: calc(100% - 160px);
+}
+
+.formn_templ > div:nth-child(2) {
+    width: 160px;
+    text-align: right;
+}
+
+.formn_templ > div:nth-child(1) p {
+    font-size: 30px;
+    line-height: 42px;
+    color: #71727A;
+    opacity: .5;
+}
+
+.formn_templ > div:nth-child(1) p a {
+    font-size: 30px;
+    line-height: 42px;
+    color: #71727A;
+}
+
+.formn_templ > div:nth-child(1) p a:hover {
+    color: #977AD2;
+    opacity: 1;
+}
+
+.subBtn {
+    border: none;
+    background: transparent;
+    font-size: 30px;
+    line-height: 42px;
+    color: #977AD2;
+    cursor: pointer;
+}
+
+.contacts_inline {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 -45px;
+    position: relative;
+}
+
+.contacts_inline:before {
+    display: block;
+    content: "";
+    width: calc(100% - 90px);
+    height: 1px;
+    background: #977AD2;
+    position: absolute;
+    top: 0;
+    left: 45px;
+}
+
+.contacts_inline > div {
+    padding: 8px 45px 0 8px;
+}
+
+.callback_img {
+    border-radius: 90px 0 0 0;
+    overflow: hidden;
+}
+
+.callback_img img {
+    height: 618px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.icon_link {
+    display: inline-flex;
+    align-items: center;
+    font-size: 21px;
+    line-height: 42px;
+    color: #71727A;
+}
+
+.icon_link img {
+    margin-right: 10px;
+}
+
+
+/*-- /Section 8 - Main Page --*/
 
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
