@@ -1081,10 +1081,6 @@ textarea:focus {
 
 /*-- Section 8 - Main Page --*/
 
-.sect_8_mp {
-
-}
-
 .callback_two_cols {
     display: flex;
     flex-wrap: wrap;
@@ -1116,10 +1112,6 @@ textarea:focus {
     font-size: 30px;
     line-height: 42px;
     color: #71727A;
-}
-
-.callback_header h2 {
-
 }
 
 .callback_header h2 span {
@@ -1213,8 +1205,24 @@ textarea:focus {
     margin-right: 10px;
 }
 
-
 /*-- /Section 8 - Main Page --*/
+
+/*-- Section 1 - Question Page --*/
+
+.promo_h1_2 {
+    padding: 0 0 0 4%;
+    position: absolute;
+    top: -45px;
+    left: 0;
+}
+
+.promo .article {
+    padding: 0 0 52px 0;
+    position: relative;
+    z-index: 2;
+}
+
+/*-- /Section 1 - Question Page --*/
 
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
