@@ -1467,10 +1467,6 @@ textarea:focus {
 
 /*-- Section 3 - About Page --*/
 
-.screen_3_ab {
-
-}
-
 .promo_2 {
     margin: 72px 0 135px 0;
     background-image: url(img/promo_2_bg.jpg);
@@ -1553,6 +1549,71 @@ textarea:focus {
 
 /*-- /Section 4 - About Page --*/
 
+/*-- Section 5 - About Page --*/
+
+.sect_5_ab {
+    padding-top: 131px;
+}
+
+.about_article {
+    padding: 33px 0 0 0;
+}
+
+.about_article h3 {
+    padding: 10px 0;
+    font-size: 30px;
+    line-height: 42px;
+    color: #000;
+}
+
+.about_article p {
+    padding: 10px 0 29px 0;
+    font-size: 21px;
+    line-height: 34px;
+    color: #71727A;
+}
+
+.about_article ul {
+    display: inline-block;
+    vertical-align: top;
+    width: calc(33.33% - 45px);
+    margin: 0 20px;
+}
+
+.about_article p + ul {
+    margin-left: 0;
+}
+
+.about_article ul li {
+    margin: 22px 0;
+    padding-left: 30px;
+    position: relative;
+    font-size: 21px;
+    line-height: 34px;
+    color: #71727A;
+}
+
+.about_article ul li:before {
+    display: block;
+    content: "";
+    width: 8px;
+    height: 8px;
+    background: #A4A5A9;
+    border-radius: 50%;
+    position: absolute;
+    top: 14px;
+    left: 0;
+}
+
+.about_article ul + h3 {
+    padding-top: 57px;
+}
+
+.sect_5_ab + .sect_8_mp .callback_two_cols {
+    padding-top: 131px
+}
+
+/*-- /Section 5 - About Page --*/
 
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
