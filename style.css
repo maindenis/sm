@@ -1615,6 +1615,179 @@ textarea:focus {
 
 /*-- /Section 5 - About Page --*/
 
+/*-- Section 1 - Logo Page --*/
+
+.logo_article {
+
+}
+
+.logo_article > div:nth-child(1) > div {
+    max-width: 590px;
+}
+
+.logo_article > div:nth-child(2) > div {
+    max-width: 600px;
+}
+
+.logotypes_articles {
+
+}
+
+.logotypes_articles_title {
+
+}
+
+.logotypes_articles_title h3 {
+    font-size: 30px;
+    line-height: 65px;
+    color: #292A2E;
+}
+
+.logotype_article {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    border-bottom: 1px solid #D9D9D9;
+    padding: 20px 0 41px 0;
+}
+
+.logotype_article:last-child {
+    padding-bottom: 26px;
+    border-bottom: none;
+}
+
+.logotype_article:nth-child(1) {
+    padding-top: 0;
+}
+
+.logotype_article:nth-child(1) > div:nth-child(1) h3 {
+    padding-top: 3px;
+}
+
+.logotype_article > div:nth-child(1) {
+    width: 50%;
+    padding: 10px 40px 10px 0;
+}
+
+.logotype_article > div:nth-child(2) {
+    width: 50%;
+    padding: 10px 0 10px 10px;
+}
+
+.logotype_article > div:nth-child(1) h3 {
+    padding: 20px 0 14px 0;
+    font-size: 30px;
+    line-height: 120%;
+    color: #977AD2;
+}
+
+.logotype_article > div:nth-child(1) p {
+    font-size: 21px;
+    line-height: 34px;
+    color: #71727A;
+}
+
+.logotype_article_2 {
+    padding: 47px 0 13px 0;
+}
+
+.logotype_article_2 h3 {
+    padding-bottom: 14px;
+    font-size: 30px;
+    line-height: 120%;
+    color: #977AD2;
+}
+
+.logotype_article_two_cols {
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.logotype_article_two_cols > div:nth-child(odd) {
+    width: 50%;
+    padding: 10px 10px 10px 0;
+}
+
+.logotype_article_two_cols > div:nth-child(even) {
+    width: 50%;
+    padding: 10px 0 10px 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logotype_article_two_cols > div:nth-child(odd) > div {
+    max-width: 600px;
+}
+
+.logotype_article_two_cols > div:nth-child(even) > div {
+    max-width: 600px;
+}
+
+.logotype_article_two_cols h4 {
+    font-size: 21px;
+    line-height: 34px;
+    color: #292A2E;
+}
+
+.logotype_article_two_cols p {
+    font-size: 21px;
+    line-height: 34px;
+    color: #71727A;
+}
+
+.logotype_article_two_cols .logos_inline {
+    padding: 32px 0 20px 0;
+    justify-content: center;
+}
+
+.logos_inline {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 -25px;
+}
+
+.logos_inline > div {
+    padding: 10px 25px;
+}
+
+/*-- /Section 1 - Logo Page --*/
+
+/*-- Section 2 - Logo Page --*/
+
+.sect_2_lp {
+
+}
+
+.sect_2_lp .article {
+    padding-bottom: 5px;
+}
+
+.lp_thumbs {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -35px;
+    padding: 0;
+}
+
+.lp_thumb {
+    width: calc(33.33% - 70px);
+    margin: 18px 35px;
+    padding-left: 30px;
+    background-image: url(img/checked.svg);
+    background-position: left 9px;
+    background-repeat: no-repeat;
+}
+
+.lp_thumb p {
+    font-size: 21px;
+    line-height: 34px;
+    color: #71727A; 
+}
+
+/*-- /Section 2 - Logo Page --*/
+
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
 /*-------------------------------------------*/
