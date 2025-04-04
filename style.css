@@ -1630,7 +1630,7 @@ textarea:focus {
 }
 
 .logotypes_articles {
-
+    padding-bottom: 48px;
 }
 
 .logotypes_articles_title {
@@ -1757,7 +1757,7 @@ textarea:focus {
 /*-- Section 2 - Logo Page --*/
 
 .sect_2_lp {
-
+    padding-top: 89px;
 }
 
 .sect_2_lp .article {
@@ -1768,7 +1768,7 @@ textarea:focus {
     display: flex;
     flex-wrap: wrap;
     margin: 0 -35px;
-    padding: 0;
+    padding: 0 0 83px 0;
 }
 
 .lp_thumb {
@@ -1787,6 +1787,77 @@ textarea:focus {
 }
 
 /*-- /Section 2 - Logo Page --*/
+
+/*-- Section 3 - Logo Page --*/
+
+.sect_3_lp {
+    padding-top: 50px;
+}
+
+.logo_creater_list_wrapp {
+    padding: 20px 0 20px 0;
+}
+
+.logo_creater_list_title h3 {
+    font-size: 30px;
+    line-height: 34px;
+    color: #977AD2;
+}
+
+.logo_creater_list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -55px;
+    padding: 30px 0;
+}
+
+.logo_creater_list li {
+    width: calc(50% - 110px);
+    margin: 5px 55px;
+    padding-left: 30px;
+    font-size: 21px;
+    line-height: 34px;
+    color: #71727A;
+    position: relative;
+}
+
+.logo_creater_list li:before {
+    display: block;
+    content: "";
+    width: 5px;
+    height: 17px;
+    background-image: url(img/logo_mark.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 8px;
+    left: 0;
+}
+
+.logo_creater_items_2_wrapp {
+    padding: 59px 0 0 0;
+}
+
+.logo_creater_items_2_title h3 {
+    font-size: 30px;
+    line-height: 34px;
+    color: #977AD2;
+}
+
+.logo_creater_items_2_wrapp .items {
+    padding-top: 13px;
+}
+
+.logo_creater_items_2_wrapp .item p span {
+    color: #292A2E;
+}
+
+/*-- /Section 3 - Logo Page --*/
+
+.sect_3_lp + .callback_two_cols {
+    padding: 78px 0 53px 0;
+}
 
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
