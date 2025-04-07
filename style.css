@@ -1859,6 +1859,222 @@ textarea:focus {
     padding: 78px 0 53px 0;
 }
 
+/*-- Section 1 - BrnadBook Page --*/
+
+.bb_promo {
+    position: relative;
+}
+
+.promo_h1_3 {
+    width: 100%;
+    padding: 0 0 0 5.8%;
+    top: 254px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.article.brandbok {
+    padding: 0 0 35px 0;
+}
+
+.article.brandbok > div:nth-child(1) {
+    width: 56%;
+}
+
+.article.brandbok > div:nth-child(2) {
+    width: 44%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.article.brandbok > div:nth-child(2) > div {
+    max-width: 460px;
+}
+
+.article.brandbok h2 {
+    font-size: 81px;
+    line-height: 79px;
+}
+
+/*-- /Section 1 - BrnadBook Page --*/
+
+/*-- Section 2 - BrnadBook Page --*/
+
+.video_article {
+    display: flex;
+    align-items: center;
+    padding: 80px 0 100px 0;
+}
+
+.video_article > div:nth-child(1) {
+    width: 370px;
+}
+
+.video_article > div:nth-child(2) {
+    width: calc(100% - 370px);
+}
+
+.video_article p {
+    padding: 18px 0;
+    font-size: 21px;
+    line-height: 34px;
+    color: #71727A; 
+}
+
+.video_btn {
+    display: block;
+    border: 0;
+    width: 207px;
+    height: 207px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.video_btn:before {
+    display: block;
+    content: "";
+    width: 23px;
+    height: 26px;
+    background-image: url(img/video_tr.svg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.video_btn img {
+
+}
+
+/*-- /Section 2 - BrnadBook Page --*/
+
+/*-- Section 3 - BrnadBook Page --*/
+
+.article.brandbok_2 {
+
+}
+
+.article.brandbok_2 p.small {
+    padding: 12px 0;
+    font-size: 21px;
+    line-height: 34px;
+    color: #71727A;
+}
+
+.brandbok_3_wrapp {
+    padding: 39px 0 30px 0;
+}
+
+.brandbok_3_title {
+    max-width: 900px;
+}
+
+.brandbok_3_title h2 {
+    font-size: 52px;
+    line-height: 74px;
+    color: #71727A;
+}
+
+.brandbok_3_title h2 span {
+    color: #292A2E;
+}
+
+.brandbok_3 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 61px 0 3px 0;
+}
+
+.brandbok_3 > div:nth-child(1) {
+    width: 49%;
+    padding: 119px 10px 10px 0;
+}
+
+.brandbok_3 > div:nth-child(2) {
+    width: 51%;
+    padding: 10px 0 10px 10px;
+    position: relative;
+    min-height: 551px;
+}
+
+.brandbok_3 > div:nth-child(1) > div {
+    max-width: 600px;
+}
+
+.brandbok_3 > div:nth-child(1) p {
+    font-size: 30px;
+    line-height: 42px;
+    color: #71727A;
+}
+
+.brandbok_3 > div:nth-child(1) p a {
+    color: #977AD2;
+}
+
+.brandbok_3 > div:nth-child(2) img {
+    display: block;
+    width: 50vw;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.brandbok_4 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 118px 0 30px 0;
+}
+
+.brandbok_4 > div:nth-child(1) {
+    width: 49%;
+}
+
+.brandbok_4 > div:nth-child(2) {
+    width: 51%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 46px 0 0 133px;
+}
+
+.brandbok_4 > div:nth-child(1) img {
+    width: calc(100% + 147px);
+    margin-left: -163px;
+}
+
+.brandbok_4 > div:nth-child(2) > div {
+    max-width: 600px;
+}
+
+.brandbok_4 > div:nth-child(2) > div > div {
+    max-width: 460px;
+}
+
+.brandbok_4 p {
+    padding: 17px 0;
+    font-size: 30px;
+    line-height: 42px;
+    color: #71727A;
+}
+
+.brandbok_4 p a {
+    color: #977AD2;
+}
+
+/*-- /Section 3 - BrnadBook Page --*/
+
+/*-- Section 4 - BrnadBook Page --*/
+
+
+
+/*-- /Section 4 - BrnadBook Page --*/
+
+
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
 /*-------------------------------------------*/
