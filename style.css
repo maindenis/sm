@@ -188,7 +188,7 @@ h3 {
     font-family: 'Gilroy';
     font-weight: 400;
     font-size: 30px;
-    line-height: 42x;
+    line-height: 42px;
     color: #292A2E;
 }
 
@@ -2256,6 +2256,7 @@ textarea:focus {
 
 .brandbok_article > div:nth-child(2) {
     width: 50%;
+    min-height: 768px;
     position: relative;
 }
 
@@ -2280,7 +2281,7 @@ textarea:focus {
 }
 
 .item_thumb p {
-    font-size: 20px;
+    font-size: 21px;
     line-height: 32px;
     color: #71727A;
 }
@@ -2355,6 +2356,273 @@ textarea:focus {
 .sect_6_bb + .sect_8_mp .callback_two_cols {
     padding-top: 124px;
 }
+
+/*-- Section 1 - Digital Page --*/
+
+.tags_wrapp_2 {
+    padding-top: 43px;
+}
+
+.tags_wrapp h3.grey {
+    padding: 6px 0;
+    font-size: 21px;
+    line-height: 120%;
+    color: #A4A5A9;
+}
+
+/*-- /Section 1 - Digital Page --*/
+
+/*-- Section 2 - Digital Page --*/
+
+.sect_2_dp {
+    padding: 98px 0 10px 0;
+}
+
+.digital_article {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 27px 0 0 0;
+}
+
+.digital_article > div:nth-child(1) {
+    width: calc(100% - 610px);
+    padding: 10px 10px 10px 0;
+}
+
+.digital_article > div:nth-child(2) {
+    width: 610px;
+    padding: 15px 2% 10px 20px;
+}
+
+.digital_article > div:nth-child(1) > div {
+    max-width: 632px;
+}
+
+.digital_article > div:nth-child(1) p {
+    font-size: 30px;
+    line-height: 42px;
+    color: #71727A;
+}
+
+.digital_article > div:nth-child(1) p a {
+    color: #977AD2;
+}
+
+.digital_img_box {
+    width: 100%;
+    max-width: 597px;
+    height: 598px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 90px 0 0 0;
+    margin: 42px 0 20px 15%;
+}
+
+.digital_img_box img {
+    display: block;
+    width: auto;
+    height: auto;
+}
+
+.digital_article .item_thumb_title {
+    padding: 38px 0 17px 0;
+}
+
+/*-- /Section 2 - Digital Page --*/
+
+/*-- Section 3 - Digital Page --*/
+
+.sect_3_dp {
+    overflow: hidden;
+}
+
+.digital_paralax {
+    margin: 134px 0 30px 0;
+    background-image: url(img/digital_paralax_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.digital_paralax > .row {
+    position: relative;
+    z-index: 5;
+}
+
+.digital_paralax > .row:before {
+    display: block;
+    content: "";
+    background-image: url(img/digital_paralax_shape.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 80%;
+    width: calc(100% + 146px);
+    position: absolute;
+    left: -73px;
+    bottom: 0;
+}
+
+.digital_paralax > .row:after {
+    width: 702px;
+    height: 100%;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    background-image: url(img/digital_paralax_box_bg.jpg);
+    background-position: center;
+    background-size: cover;
+    z-index: 2;
+}
+
+.digital_sculptor {
+    display: block;
+    width: auto;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 5;
+}
+
+.digital_paralax_title {
+
+}
+
+.digital_paralax_content {
+    display: flex;
+    flex-wrap: wrap;
+    height: 700px;
+    align-items: center;
+    position: relative;
+    z-index: 5;
+}
+
+.digital_paralax_content > div:nth-child(1) {
+    width: 50%;
+    padding: 10px 10px 10px 0;
+}
+
+.digital_paralax_content > div:nth-child(2) {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 0 10px 10px;
+}
+
+.digital_paralax_content > div:nth-child(1) > div {
+    max-width: 430px;
+}
+
+.digital_paralax_content > div:nth-child(2) > div {
+    max-width: 335px;
+    width: 100%;
+}
+
+.digital_paralax_content > div:nth-child(1) p {
+    font-size: 52px;
+    line-height: 74px;
+    color: #FFF;
+}
+
+.digital_paralax_content > div:nth-child(2) p {
+    font-size: 30px;
+    line-height: 42px;
+    color: #FFF;
+}
+
+.digital_paralax_title {
+    display: block;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    z-index: 4;
+}
+
+/*-- /Section 3 - Digital Page --*/
+
+/*-- Section 4 - Digital Page --*/
+
+.sect_4_dp {
+    padding: 99px 0 30px 0;
+}
+
+.h2_wrapp_2 {
+
+}
+
+.h2_wrapp_2 h2 {
+    font-size: 81px;
+    line-height: 81px;
+    color: #292A2E;
+}
+
+.h2_wrapp_2 h2 span {
+    font-size: 48px;
+    color: #71727A;
+}
+
+.digital_article_2 {
+    padding: 13px 0 0 0;
+}
+
+.digital_article_2 > div:nth-child(2) {
+    padding: 9px 2% 10px 20px;
+}
+
+.digital_article_2 > div:nth-child(1) > div {
+    max-width: 725px;
+}
+
+.digital_img_box_2 {
+    height: 626px;
+    margin: 45px 0 20px 15%;
+    border-radius: 0 130px 0 0; 
+}
+
+.digital_article_2 > div:nth-child(2) h3:nth-child(1) {
+    padding-top: 0;
+}
+
+.digital_article_2 h3 {
+    padding: 41px 0 17px 0;
+    font-size: 30px;
+    line-height: 42px;
+    color: #292A2E;
+}
+
+.digital_article_2 p {
+    font-size: 21px;
+    line-height: 34px;
+    color: #71727A;
+}
+
+/*-- /Section 4 - Digital Page --*/
+
+/*-- Section 5 - BrnadBook Page --*/
+
+.sect_5_dp {
+    padding: 60px 0 20px 0;
+}
+
+.brandbok_thumbs_2_2 {
+    padding: 20px 0 20px 0;
+}
+
+.brandbok_thumbs_2_2 .brandbok_thumb_2 {
+    margin: 2px 40px;
+}
+
+
+
+/*-- /Section 5 - BrnadBook Page --*/
+
 
 /*-------------------------------------------*/
 /* ----- FOOTER ------ */
