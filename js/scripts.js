@@ -103,4 +103,72 @@ $(document).ready(function() {
       }
     });
 
+    // ----------------
+
+    $( ".hovder_dr_item" ).bind({
+      mouseenter: function() {
+        $(this).addClass( "active" );
+        dr = $(this).find(".hovder_dr_item_content");
+        height = $(this).find(".dr_inner_wrapp").outerHeight();
+        dr.stop().animate({
+            "height" : height + "px"
+        }, 700, function() {
+            dr.css({
+                "height" : "auto"
+            });
+        });
+      },
+      mouseleave: function() {
+        $(this).removeClass( "active" );
+        dr = $(this).find(".hovder_dr_item_content");
+        height = $(this).find(".dr_inner_wrapp").outerHeight();
+        dr.stop().animate({
+            "height" : "0"
+        }, 700);
+      }
+    });
+
+    // --------------
+
+    if( $(".icons_slider").length > 0 ) {
+        $(".icons_slider").not(".slick-initialized").slick({
+            dots: true,
+            arrows: false,
+            variableWidth: true,
+            slidesToShow: 5,
+            slidesToScroll: 3,
+            infinite: true
+        });
+    }
+
+    // -------------
+
+    $(".price_thumb_wrapp").each(function () {
+        height = $(this).find(".price_thumb_content").height();
+        $(this).height(height);
+    });
+
+    $( ".price_thumb" ).bind({
+      mouseenter: function() {
+        $(this).addClass( "active" );
+        dr = $(this).find(".dr_content_price_height");
+        height = $(this).find(".dr_content_price").outerHeight();
+        dr.stop().animate({
+            "height" : height + "px"
+        }, 300, function() {
+            dr.css({
+                "height" : "auto"
+            });
+        });
+      },
+      mouseleave: function() {
+        $(this).removeClass( "active" );
+        dr = $(this).find(".dr_content_price_height");
+        height = $(this).find(".dr_content_price").outerHeight();
+        dr.stop().animate({
+            "height" : "0"
+        }, 300);
+      }
+    });
+
 });
