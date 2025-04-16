@@ -260,7 +260,7 @@ $(document).ready(function() {
       });
       $("[data-popup = '"+ popupName +"']").fadeIn(300);
     });
-    $(document).on("click", ".close, .popup_bg, .close_2", function(e) {
+    $(document).on("click", ".close, .popup_bg", function(e) {
       e.preventDefault();
       curTop = $("body").css("top");
       curTop = Math.abs(parseInt(curTop, 10));
