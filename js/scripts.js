@@ -1,3 +1,29 @@
+function getTitleParams() {
+    if($(".title_height").length> 0) {
+        height = $(".title_height").height();
+        $(".animate_title").css({
+            "min-height" : height + "px"
+        });
+    }
+}
+
+function getTitleParams() {
+    if($(".title_height").length> 0) {
+        height = $(".title_height").height();
+        $(".animate_title").css({
+            "min-height" : height + "px"
+        });
+    }
+}
+
+function getRespParams() {
+    if($(document).scrollTop() > 0) {
+        $("#header").addClass("scroll");
+    } else {
+        $("#header").removeClass("scroll");
+    }
+}
+
 var w = window,
 d = document,
 e = d.documentElement,
@@ -5,14 +31,74 @@ g = d.getElementsByTagName('body')[0],
 bodyWidth = w.innerWidth || e.clientWidth || g.clientWidth;
 
 $(window).resize(function() {
-
+    getTitleParams();
+    getRespParams();
 });
 
 $(document).scroll(function() {
-
+    getRespParams();
 });
 
 $(document).ready(function() {
+
+    getTitleParams();
+    getRespParams();
+
+    // ---------------
+
+    var TxtType = function(el, toRotate, period) {
+        this.toRotate = toRotate;
+        this.el = el;
+        this.loopNum = 0;
+        this.period = parseInt(period, 10) || 2000;
+        this.txt = '';
+        this.tick();
+        this.isDeleting = false;
+    };
+
+    TxtType.prototype.tick = function() {
+        var i = this.loopNum % this.toRotate.length;
+        var fullTxt = this.toRotate[i];
+
+        if (this.isDeleting) {
+        this.txt = fullTxt.substring(0, this.txt.length - 1);
+        } else {
+        this.txt = fullTxt.substring(0, this.txt.length + 1);
+        }
+        this.el.innerHTML = '<span class="wrap">'+this.txt+'<span class="cursor"></span></span>';
+        var that = this;
+        var delta = 150 - Math.random() * 100;
+        if (this.isDeleting) { delta /= 2; }
+        if (!this.isDeleting && this.txt === fullTxt) {
+        delta = this.period;
+        this.isDeleting = true;
+        } else if (this.isDeleting && this.txt === '') {
+        this.isDeleting = false;
+        this.loopNum++;
+        delta = 500;
+        }
+        setTimeout(function() {
+        that.tick();
+        }, delta);
+    };
+
+    window.onload = function() {
+        var elements = document.getElementsByClassName('typewrite');
+        for (var i=0; i<elements.length; i++) {
+            var toRotate = elements[i].getAttribute('data-type');
+            var period = elements[i].getAttribute('data-period');
+            if (toRotate) {
+              new TxtType(elements[i], JSON.parse(toRotate), period);
+            }
+        }
+        // INJECT CSS
+        // var css = document.createElement("style");
+        // css.type = "text/css";
+        // css.innerHTML = ".typewrite > .wrap { border-right: 2px solid #292A2E;}";
+        // document.body.appendChild(css);
+    };
+
+    // ---------------
 
     $(".respBtn").on("click", function(e) {
         e.preventDefault();
@@ -306,15 +392,15 @@ $(document).ready(function() {
 
     // ----------------
 
-    $(".mail_link").on("mouseover", function () {
+    $("#headerContact .mail_link").on("mouseover", function () {
         $(".dr_contacts_wrapp").addClass("mailDr");
     });
 
-    $(".tel_link").on("mouseover", function () {
+    $("#headerContact .tel_link").on("mouseover", function () {
         $(".dr_contacts_wrapp").addClass("telDr");
     });
 
-    $(".dr_contacts_wrapp").on("mouseleave", function () {
+    $("#headerContact.dr_contacts_wrapp").on("mouseleave", function () {
         $(this).removeClass("mailDr");
         $(this).removeClass("telDr");
     });
@@ -326,5 +412,7 @@ $(document).ready(function() {
         startVisible: true,
         duplicated: true
     });
+
+
 
 });

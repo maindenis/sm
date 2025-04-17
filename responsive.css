@@ -1,19 +1,1335 @@
 @media only screen and (max-width: 1800px) {
 
+h1 {
+    font-size: 150px;
+}
 
+/*-- Header --*/
+
+.header_site {
+    padding: 20px 50px 20px 50px;
+}
+
+.resp_nav li {
+    padding: 0 10px;
+}
+
+.resbtn_wrapp {
+    padding: 11px 0 0 30px;
+}
+
+/*-- Modal Nav --*/
+
+.tree_cols_nav {
+    padding: 2% 0 20px 0;
+}
+
+.tree_cols_nav ul li {
+    padding: 15px 0;
+}
+
+.tree_cols_nav ul li a {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.modal_nav.visible .modal_nav_title {
+    top: -110px;
+}
+
+.modal_nav_title h2 {
+    font-size: 145px;
+    line-height: 145px;
+}
+
+.modal_nav_header {
+    padding: 4% 0 20px 0;
+}
+
+.modal_nav_header h3 {
+    font-size: 53px;
+    line-height: 60px;
+}
+
+.nav_pill {
+    height: 110px;
+}
+
+.nav_pill p {
+    font-size: 54px;
+    line-height: 55px;
+}
+
+/*-- /Modal Nav --*/
+
+/*-- /Header --*/
+
+/*-- Section 1 - Main Page --*/
+
+.promo_thumb {
+    height: 450px;
+}
+
+/*-- /Section 1 - Main Page --*/
+
+}
+
+@media only screen and (max-width: 1700px) {
+
+/*-- Section 1 - Main Page --*/
+
+.promo_thumb {
+    height: 396px;
+}
+
+.promo_thumb img {
+    height: 396px;
+}
+
+/*-- /Section 1 - Main Page --*/
+
+}
+
+@media only screen and (max-width: 1600px) {
+
+/*-- Header --*/
+
+.header_site > .left {
+    width: 240px;
+}
+
+.header_site > .right {
+    width: calc(100% - 240px);
+}
+
+.resp_nav {
+    padding: 18px 15px 5px 0;
+}
+
+.logo p {
+    font-size: 17px;
+    line-height: 23px;
+}
+
+.mail_link_hover {
+    font-size: 20px;
+}
+
+/*-- /Header --*/
+
+
+/*-- Section 1 - Main Page --*/
+
+.promo_thumb {
+    height: 396px;
+    position: relative;
+}
+
+.promo_thumb video {
+    min-width: 100%;
+    height: 100%;
+    width: auto;
+}
+
+.promo_thumb img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/*-- /Section 1 - Main Page --*/
+
+}
+
+@media only screen and (max-width: 1450px) {
+
+h1 {
+    font-size: 100px;
+}
+
+/*-- Header --*/
+
+.header_site {
+    padding: 20px 25px 20px 25px;
+}
+
+.pink_link {
+    padding: 5px 15px;
+    font-size: 18px;
+}
+
+.tel_link {
+    padding: 0 15px 0 10px;
+    font-size: 24px;
+}
+
+.resbtn_wrapp {
+    padding: 11px 0 0 20px;
+}
+
+.resp_nav li a {
+    font-size: 18px;
+}
+
+/*-- /Header --*/
+
+/*-- Section 1 - Main Page --*/
+
+.promo {
+    padding: 195px 0 10px 0;
+}
+
+.promo_h1 {
+    top: 169px;
+}
+
+/*-- /Section 1 - Main Page --*/
+
+/*-- Section 2 - Main Page --*/
+
+.sect_2_mp {
+    padding: 55px 0 10px 0;
+}
+
+.article h2 {
+    font-size: 66px;
+    line-height: 73px;
+}
+
+.article h2 span {
+    font-size: 42px;
+}
+
+.article > div:nth-child(2) p {
+    padding-bottom: 20px;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.article > div:nth-child(2) p a {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+/*-- /Section 2 - Main Page --*/
+
+/*-- Section 3 - Main Page --*/
+
+.tabs_list {
+    margin: 0 -25px;
+}
+
+.tabs_list li {
+    padding: 10px 15px;
+}
+
+.tab_link {
+    font-size: 18px;
+    line-height: 34px;
+}
+
+/*-- /Section 3 - Main Page --*/
+
+/*-- Section 8 - Main Page --*/
+
+.callback_two_cols > div:nth-child(1) {
+    padding: 5px 20px 10px 0;
+}
+
+/*-- /Section 8 - Main Page --*/
 
 }
 
 @media only screen and (max-width: 1240px) {
 
+/*-- Header --*/
 
+.resp_nav {
+    display: none;
+}
+
+/*-- Modal Nav --*/
+
+.modal_nav_header h3 {
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.modal_nav.visible .modal_nav_title {
+    top: -69px;
+}
+
+.modal_nav_title h2 {
+    font-size: 94px;
+    line-height: 94px;
+}
+
+.nav_pill {
+    height: 80px;
+}
+
+.nav_pill p {
+    font-size: 42px;
+    line-height: 42px;
+}
+
+.tree_cols_nav ul li {
+    padding: 10px 0;
+    line-height: 1;
+}
+
+.tree_cols_nav ul li a {
+    font-size: 20px;
+    line-height: 26px;
+}
+
+/*-- /Modal Nav --*/
+
+/*-- /Header --*/
+
+/*-- Section 2 - Main Page --*/
+
+.tags li {
+    width: calc(25% - 20px);
+    margin: 10px;
+}
+
+/*-- /Section 2 - Main Page --*/
+
+/*-- Section 8 - Main Page --*/
+
+.callback_two_cols {
+    padding: 70px 0 53px 0;
+}
+
+.callback_two_cols > div:nth-child(1) {
+    width: calc(100% - 500px);
+}
+
+.callback_two_cols > div:nth-child(2) {
+    width: 500px;
+}
+
+.formn_templ > div:nth-child(1) > p,
+.formn_templ > div:nth-child(1) > p a {
+    font-size: 20px;
+    line-height: 33px;
+}
+
+.subBtn {
+    font-size: 20px;
+    line-height: 33px;
+}
+
+.form_js_input input {
+    font-size: 23px;
+}
+
+.callback_img img {
+    height: 450px;
+    width: 100%;
+}
+
+.callback_header h2 {
+    font-size: 43px;
+}
+
+.callback_header h2 span {
+    font-size: 35px;
+}
+
+/*-- /Section 8 - Main Page --*/
+
+/*-- Footer --*/
+
+.footer_templ {
+    padding: 15px 0 10px 0;
+}
+
+.footer_templ > div:nth-child(1) {
+    padding: 10px 0 10px 0;
+    width: 100%;
+    text-align: center;
+}
+
+.footer_templ > div:nth-child(2) {
+    width: calc(100% - 250px);
+}
+
+.footer_templ > div:nth-child(3) {
+    width: 250px;
+}
+
+.footer_bottom_templ> div:nth-child(1) {
+    width: 38%;
+}
+
+.footer_bottom_templ> div:nth-child(2) {
+    width: 62%;
+}
+
+.footer_inline {
+    margin: 0 -20px;
+}
+
+.footer_inline > div {
+    padding: 0 20px;
+}
+
+.tel_link_2 {
+    font-size: 26px;
+}
+
+/*-- /Footer --*/
+
+}
+
+@media only screen and (max-width: 1124px) {
+
+h2 {
+    font-size: 57px;
+}
+
+/*-- Section 1 - Main Page --*/
+
+.animate_title .cursor {
+    height: 40px;
+    top: 13px;
+}
+
+/*-- /Section 1 - Main Page --*/
+
+/*-- Section 4 - Main Page --*/
+
+.article_2 > div:nth-child(2) {
+    width: 50%;
+    padding: 21px 0 10px 20px;
+}
+
+.article h2 {
+    font-size: 50px;
+    line-height: 66px;
+}
+
+.article_2 > div:nth-child(2) h3 {
+    padding: 20px 0 8px 0;
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.article_2 > div:nth-child(2) p {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.img_box_inner p {
+    font-size: 24px;
+    line-height: 34px;
+}
+
+.img_box_inner {
+    padding: 60px 30px 70px 30px;
+}
+
+.img_box_3_content {
+    padding: 30px 0 0 0;
+}
+
+.img_box_3_content h3 {
+    padding-bottom: 20px;
+    font-size: 33px;
+    line-height: 37px;
+}
+
+.img_box_3 {
+    padding: 20px 60px 65px 20px;
+}
+
+.link_wrapp {
+    padding: 40px 0 0 0;
+}
+
+.pink_link_2 {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+/*-- /Section 4 - Main Page --*/
+
+/*-- Footer --*/
+
+.footer_bottom_templ> div:nth-child(1) {
+    width: 100%;
+    text-align: center;
+}
+
+.footer_bottom_templ> div:nth-child(2) {
+    width: 100%;
+    text-align: center;
+}
+
+.footer_inline {
+    justify-content: center;
+}
+
+/*-- /Footer --*/
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+h1 {
+    font-size: 80px;
+}
+
+/*-- Section 1 - Main Page --*/
+
+.promo_thumb {
+    height: 250px;
+    border-radius: 0 50px 0 0;
+}
+
+/*-- /Section 1 - Main Page --*/
+
+/*-- Section 2 - Main Page --*/
+
+.article > div:nth-child(1) {
+    width: 100%;
+    padding: 10px 0 10px 0;
+}
+
+.article > div:nth-child(2) {
+    width: 100%;
+    padding: 10px 0 10px 0;
+}
+
+.article h2 {
+    font-size: 54px;
+    line-height: 68px;
+}
+
+.article h2 span {
+    font-size: 34px;
+}
+
+.article > div:nth-child(2) p {
+    padding-bottom: 10px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.article > div:nth-child(2) p a {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/*-- /Section 2 - Main Page --*/
+
+/*-- Section 4 - Main Page --*/
+
+.sect_4_mp {
+    padding: 94px 0 35px 0;
+}
+
+.article_2 > div:nth-child(2) h3 {
+    padding: 17px 0 8px 0;
+    font-size: 22px;
+    line-height: 29px;
+}
+
+.article_2 > div:nth-child(2) p {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.img_box_3_content h3 {
+    padding-bottom: 10px;
+    font-size: 30px;
+    line-height: 37px;
+}
+
+.link_wrapp {
+    padding: 20px 0 0 0;
+}
+
+/*-- /Section 4 - Main Page --*/
+
+/*-- Section 5 - Main Page --*/
+
+.items {
+    margin: 0 -20px;
+    padding: 10px 0 10px 0;
+}
+
+.item {
+    width: calc(50% - 40px);
+    margin: 10px 20px;
+}
+
+.item > div:nth-child(1) p {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.item > div:nth-child(2) p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.item > div:nth-child(2) p a {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/*-- /Section 5 - Main Page --*/
+
+/*-- Section 6 - Main Page --*/
+
+.pink_line {
+    margin: 30px 0 30px 0;
+    padding: 30px 0 30px 0;
+}
+
+.pink_line ul li {
+    padding: 15px 15px;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+/*-- /Section 6 - Main Page --*/
+
+/*-- Section 7 - Main Page --*/
+
+.faq_item_title {
+    padding: 20px 50px 20px 0;
+}
+
+.faq_item_title h3 {
+    font-size: 24px;
+    line-height: 35px;
+}
+
+.faq_item_title svg {
+    right: 15px;
+}
+
+.faq_item_content {
+    margin-top: -10px;
+    padding: 0 30px 20px 20px;
+}
+
+.faq_item_content p {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+/*-- /Section 7 - Main Page --*/
+
+/*-- Section 8 - Main Page --*/
+
+.callback_two_cols > div:nth-child(1) {
+    width: calc(100% - 300px);
+}
+
+.callback_two_cols > div:nth-child(2) {
+    width: 300px;
+}
+
+.callback_header h3 {
+    padding-bottom: 5px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.contacts_inline {
+    margin: 0 -15px;
+}
+
+.contacts_inline > div {
+    padding: 8px 15px 0 8px;
+}
+
+.icon_link {
+    font-size: 18px;
+    line-height: 34px;
+}
+
+/*-- /Section 8 - Main Page --*/
+
+}
+
+@media only screen and (max-width: 900px) {
+
+h2 {
+    font-size: 41px;
+}
+
+/*-- Section 1 - Main Page --*/
+
+.promo {
+    padding: 142px 0 10px 0;
+}
+
+.promo_thumbs {
+    padding: 77px 25px 30px 25px;
+}
+
+.promo_h1 {
+    top: 78px;
+    font-size: 57px;
+    line-height: 1;
+}
+
+.h1_descript p {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.animate_title .cursor {
+    height: 30px;
+    top: 8px;
+}
+
+.promo_thumbs {
+    padding: 55px 25px 30px 25px;
+}
+
+/*-- /Section 1 - Main Page --*/
+
+/*-- Section 2 - Main Page --*/
+
+h3 {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.tags li a {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+/*-- /Section 2 - Main Page --*/
+
+/*-- Section 4 - Main Page --*/
+
+.article_2 > div:nth-child(1) {
+    width: 60%;
+}
+
+.article_2 > div:nth-child(2) {
+    width: 40%;
+}
+
+.img_box_3_outside {
+    width: 60vw;
+}
+
+.img_box_inner p {
+    font-size: 22px;
+}
+
+/*-- /Section 4 - Main Page --*/
+
+/*-- Footer --*/
+
+.footer_nav li a {
+    font-size: 18px;
+    line-height: 20px;
+}
+
+/*-- /Footer --*/
+
+}
+
+@media only screen and (max-width: 767px) {
+
+/*-- Header --*/
+
+.header_site {
+    width: 100%;
+    padding: 10px 15px 10px 15px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 4;
+}
+
+#header.scroll {
+    padding-top: 10px;
+    padding-bottom: 1px;
+}
+
+.header_site:before {
+    height: 3px;
+}
+
+.header_site > .left {
+    width: 60px;
+    padding-right: 5px;
+}
+
+.header_site > .right {
+    width: calc(100% - 60px);
+    padding-left: 5px;
+}
+
+.logo {
+    max-width: 44px;
+}
+
+.logo img {
+    margin-right: 0;
+}
+
+.logo p {
+    display: none;
+}
+
+.inlines > div {
+    min-height: 37px;
+}
+
+.soc_dr ul {
+    margin: 0;
+}
+
+.dr_contacts_wrapp {
+    height: 37px;
+}
+
+.tel_link {
+    font-size: 19px;
+}
+
+.pink_link {
+    height: 37px;
+    font-size: 16px;
+}
+
+.mail_link {
+    width: 58px;
+    height: 37px;
+}
+
+.resbtn_wrapp {
+    padding: 0 0 0 10px;
+}
+
+.mail_link_hover {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.closeModalNav {
+    top: 12px;
+    right: 20px;
+}
+
+/*-- Modal Nav --*/
+
+.tree_cols_nav ul li a {
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.modal_nav.visible .modal_nav_title {
+    top: -45px;
+}
+
+.modal_nav_title h2 {
+    font-size: 59px;
+    line-height: 59px;
+}
+
+.nav_pill {
+    height: 50px;
+}
+
+.nav_pill p {
+    font-size: 29px;
+    line-height: 29px;
+}
+
+/*-- /Modal Nav --*/
+
+/*-- /Header --*/
+
+/*-- Section 1 - Main Page --*/
+
+.promo_thumbs {
+    padding: 25px 25px 15px 25px;
+}
+
+.promo_thumb {
+    height: 160px;
+    border-radius: 0 30px 0 0;
+}
+
+.promo_thumb:nth-child(2) {
+    top: -30px;
+}
+
+.promo_thumb video {
+    min-width: auto;
+    height: auto;
+    width: 100%;
+}
+
+/*-- /Section 1 - Main Page --*/
+
+/*-- Section 2 - Main Page --*/
+
+.sect_2_mp {
+    padding: 25px 0 10px 0;
+}
+
+.article h2 {
+    font-size: 38px;
+    line-height: 57px;
+}
+
+.article h2 span {
+    font-size: 25px;
+}
+
+.tags li {
+    width: calc(33.33% - 20px);
+}
+
+/*-- /Section 2 - Main Page --*/
+
+/*-- Section 4 - Main Page --*/
+
+.article_2 > div:nth-child(1) {
+    width: 50%;
+}
+
+.article_2 > div:nth-child(2) {
+    width: 50%;
+    padding: 20px 0 10px 0;
+}
+
+.article_2 > div:nth-child(2) h3 {
+    padding: 10px 0 8px 0;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.img_box_3 {
+    padding: 20px 20px 40px 0px;
+}
+
+.img_box_3_outside {
+    border-radius: 0 90px 0 0;
+}
+
+.img_box_inner {
+    border-radius: 0 60px 0 0;
+    padding: 15px 25px 15px 15px;
+}
+
+.img_box_inner p {
+    font-size: 18px;
+    line-height: 29px;
+}
+
+.img_box_3_content h3 {
+    padding-bottom: 10px;
+    font-size: 27px;
+    line-height: 34px;
+}
+
+.link_wrapp {
+    padding: 5px 0 0 0;
+}
+
+.pink_link_2 {
+    font-size: 20px;
+    line-height: 34px;
+}
+
+/*-- /Section 4 - Main Page --*/
+
+/*-- Section 8 - Main Page --*/
+
+.callback_two_cols > div:nth-child(1) {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.callback_two_cols > div:nth-child(2) {
+    display: none;
+}
+
+/*-- /Section 8 - Main Page --*/
+
+/*-- Footer --*/
+
+.footer_templ > div:nth-child(2) {
+    width: 100%;
+}
+
+.footer_templ > div:nth-child(3) {
+    width: 100%;
+    text-align: center;
+}
+
+.footer_templ .pink_box {
+    margin: 15px 0 15px 0;
+}
+
+/*-- /Footer --*/
+
+}
+
+@media only screen and (max-width: 700px) {
+
+/*-- Section 1 - Main Page --*/
+
+.promo_thumb {
+    height: 114px;
+}
+
+/*-- /Section 1 - Main Page --*/
+
+/*-- Section 3 - Main Page --*/
+
+.sect_3_mp {
+    padding: 40px 0 10px 0;
+}
+
+.sect_3_mp .article {
+    padding-bottom: 10px;
+}
+
+.tabs_list {
+    padding: 5px 0 0 0;
+}
+
+.tabs_list li {
+    padding: 2px 15px;
+}
+
+/*-- /Section 3 - Main Page --*/
+
+/*-- Footer --*/
+
+.footer_inline > div:nth-child(1) {
+    width: 100%;
+    text-align: center;
+}
+
+.footer_inline > div:nth-child(2) {
+    width: 100%;
+    text-align: center;
+}
+
+.footer_nav li {
+    padding: 5px 0;
+}
+
+.soc_list {
+    justify-content: center;
+}
+
+/*-- /Footer --*/
+
+}
+
+@media only screen and (max-width: 600px) {
+
+.novisible_600 {
+    display: none;
+}
+
+h2 {
+    font-size: 33px;
+}
+
+/*-- Header --*/
+
+.modal_nav.visible .modal_nav_title {
+    top: -36px;
+}
+
+.modal_nav_header {
+    padding: 20px 0 15px 0;
+}
+
+.modal_nav_header h3 {
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.tree_cols_nav {
+    padding: 10px 0 20px 0;
+}
+
+.tree_cols_nav ul li {
+    padding: 5px 0;
+}
+
+.tree_cols_nav ul li a {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.nav_pill p {
+    font-size: 19px;
+    line-height: 24px;
+}
+
+.modal_nav_title h2 {
+    font-size: 40px;
+    line-height: 52px;
+}
+
+/*-- /Header --*/
+
+/*-- Section 1 - Main Page --*/
+
+.animate_title .cursor {
+    height: 23px;
+    top: 7px;
+}
+
+.promo_thumb {
+    height: 108px;
+}
+
+/*-- /Section 1 - Main Page --*/
+
+/*-- Section 2 - Main Page --*/
+
+.tags li a {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+/*-- /Section 2 - Main Page --*/
+
+/*-- Section 3 - Main Page --*/
+
+.tab_link {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.tabs_list li {
+    padding: 2px 15px;
+    line-height: 1;
+}
+
+.button_wrapp {
+    padding: 10px 0 10px 0;
+}
+
+.more_link {
+    font-size: 17px;
+}
+
+/*-- /Section 3 - Main Page --*/
+
+/*-- Section 4 - Main Page --*/
+
+.sect_4_mp {
+    padding: 36px 0 34px 0;
+}
+
+.article_2 > div:nth-child(1) {
+    width: calc(100% + 60px);
+    position: relative;
+    left: 25px;
+}
+
+.article_2 > div:nth-child(2) {
+    width: 100%;
+}
+
+.img_box_3_content {
+    left: -20px;
+}
+
+.img_box_3_outside {
+    width: 100vw;
+}
+
+/*-- /Section 4 - Main Page --*/
+
+/*-- Section 5 - Main Page --*/
+
+.sect_5_mp .article {
+    padding-bottom: 0;
+}
+
+.item {
+    width: calc(100% - 40px);
+    margin: 10px 20px;
+}
+
+/*-- /Section 5 - Main Page --*/
+
+/*-- Section 7 - Main Page --*/
+
+.faq_item_title h3 {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.faq_item_title svg {
+    display: block;
+    top: calc(50% - 15px);
+}
+
+/*-- /Section 7 - Main Page --*/
+
+/*-- Section 8 - Main Page --*/
+
+.callback_two_cols {
+    padding: 40px 0 20px 0;
+}
+
+.formn_templ {
+    padding: 40px 0 12px 0;
+}
+
+.contacts_inline {
+    display: block;
+    text-align: left;
+    margin: 0;
+}
+
+.contacts_inline > div {
+    width: 100%;
+    padding: 0;
+}
+
+/*-- /Section 8 - Main Page --*/
+
+}
+
+@media only screen and (max-width: 480px) {
+
+h3 {
+    font-size: 22px;
+    line-height: 36px;
+}
+
+/*-- Header --*/
+
+.tree_cols_nav {
+    margin: 0;
+}
+
+.tree_cols_nav > div:nth-child(1),
+.tree_cols_nav > div:nth-child(2),
+.tree_cols_nav > div:nth-child(3) {
+    width: 100%;
+    padding: 0
+}
+
+/*-- /Header --*/
+
+/*-- Section 1 - Main Page --*/
+
+.promo_h1 {
+    line-height: 1;
+    font-size: 45px;
+}
+
+.promo_thumbs {
+    padding: 25px 15px 15px 15px;
+}
+
+.promo_thumb {
+    height: 300px;
+    width: 100%;
+    border-radius: 0 75px 0 0;
+}
+
+.promo_thumb:nth-child(2) {
+    top: 0;
+}
+
+/*-- /Section 1 - Main Page --*/
+
+/*-- Section 2 - Main Page --*/
+
+.article {
+    padding-bottom: 5px;
+}
+
+.article h2 {
+    font-size: 29px;
+    line-height: 38px;
+}
+
+.article h2 span {
+    font-size: 22px;
+}
+
+.tags li {
+    width: calc(50% - 20px);
+}
+
+/*-- /Section 2 - Main Page --*/
+
+/*-- Footer --*/
+
+.navs_inline > div {
+    width: 100%;
+    padding: 0 10px;
+}
+
+.footer_bottom_templ> div:nth-child(1) p {
+    padding: 2px 0;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.tel_link_2 {
+    font-size: 20px;
+    line-height: 20px;
+}
+
+/*-- /Footer --*/
+
+}
+
+@media only screen and (max-width: 410px) {
+
+/*-- Section 1 - Main Page --*/
+
+.animate_title {
+    position: relative;
+    min-height: 80px !important;
+}
+
+.promo_thumb video {
+    min-width: auto;
+    height: 100%;
+    width: auto;
+}
+
+/*-- /Section 1 - Main Page --*/
+
+}
+
+@media only screen and (max-width: 360px) {
+
+/*-- Header --*/
+
+.header_site {
+    padding: 10px 10px 10px 10px;
+}
+
+/*-- /Header --*/
 
 }
 
 @media only screen and (min-width: 768px) {
 
-#resp_nav {
-    display: block !important;
-}
 
 }
