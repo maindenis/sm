@@ -91,11 +91,6 @@ $(document).ready(function() {
               new TxtType(elements[i], JSON.parse(toRotate), period);
             }
         }
-        // INJECT CSS
-        // var css = document.createElement("style");
-        // css.type = "text/css";
-        // css.innerHTML = ".typewrite > .wrap { border-right: 2px solid #292A2E;}";
-        // document.body.appendChild(css);
     };
 
     // ---------------
@@ -121,6 +116,7 @@ $(document).ready(function() {
     $(this).keydown(function(eventObject){
       if (eventObject.which == 27) {
         $(".modal_nav").removeClass("visible");
+        $(".respBtn").removeClass("active");
             setTimeout(function() {
                 $(".modal_nav").fadeOut(300);
             }, 500);
@@ -157,6 +153,17 @@ $(document).ready(function() {
                 //   }
                 // }
               ]
+        });
+    }
+
+    // --------------
+
+    if( $(".tabs_list").length > 0 ) {
+        $(".tabs_list").not(".slick-initialized").slick({
+            dots: false,
+            arrows: false,
+            variableWidth: true,
+            infinite: false
         });
     }
 
@@ -413,6 +420,18 @@ $(document).ready(function() {
         duplicated: true
     });
 
+    // ---------------
 
+    $( "[data-hover-color]" ).bind({
+      mouseenter: function() {
+        hoverColor = $(this).attr("data-hover-color");
+        $(this).css({
+            "color" : hoverColor
+        });
+      },
+      mouseleave: function() {
+        $(this).attr("style" , "");
+      }
+    });
 
 });
