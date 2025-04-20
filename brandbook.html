@@ -1,4 +1,4 @@
-	<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru">
 <head>
 	<meta charset="utf-8">
@@ -8,13 +8,12 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link rel="icon" type="image/png" href="favicon/favicon.ico" sizes="16x16">	
 	<title></title>
-	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </head>
 <body>
 	<div class="wrapper">
-	<!-- Header -->		
+	<!-- Header -->
 	<header>
-		<div class="header_site">
+		<div class="header_site" id="header">
 			<div class="left">
 				<a href="#" class="logo">
 					<img src="img/logo.svg" alt="" loading="logo" />
@@ -27,32 +26,153 @@
 					<li><a href="#">Дизайн & брендинг</a></li>
 					<li><a href="#">Контакты</a></li>
 				</ul>
-				<div class="inlines">
-					<div>
-						<div class="pink_box">
-							<div>
-								<a href="#" class="pink_link">Скачать БРИФ</a>
-							</div>
-							<div>
-								<a class="mail_link" href="mailto:">
-									<img src="img/mail.svg" alt="" loading="logo" />
+				<div class="novisible_700">
+					<div class="inlines">
+						<div class="novisible_600">
+							<a href="#" class="pink_link">Скачать БРИФ</a>
+						</div>
+						<div class="dr_contacts_wrapp" id="headerContact">
+							<div class="icons_dr_wrapp">
+								<div class="soc_dr">
+									<ul>
+										<li>
+											<a href="#" class="gren_hover">
+												<svg width="24" height="23" viewBox="0 0 24 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M17.3938 13.6588L17.3849 13.7276C15.212 12.7216 14.9847 12.5876 14.7041 12.9786C14.5094 13.2494 13.9422 13.8635 13.7713 14.0452C13.5984 14.2242 13.4264 14.238 13.133 14.1141C12.8365 13.9764 11.8849 13.6872 10.7585 12.751C9.88099 12.0212 9.29206 11.1263 9.11815 10.8509C8.82862 10.3864 9.43435 10.3203 9.98573 9.35103C10.0845 9.15827 10.0341 9.00682 9.96103 8.87005C9.88692 8.73236 9.297 7.38303 9.04996 6.84514C8.81281 6.30908 8.56874 6.377 8.38593 6.377C7.81677 6.33111 7.40076 6.33845 7.03416 6.69276C5.43931 8.32114 5.84148 10.0009 7.2061 11.7872C9.88791 15.0476 11.3168 15.6479 13.9294 16.4814C14.6349 16.6897 15.2782 16.6604 15.7871 16.5924C16.3543 16.5089 17.5331 15.9306 17.7792 15.2835C18.0312 14.6364 18.0312 14.0994 17.957 13.9755C17.8839 13.8516 17.6902 13.7827 17.3938 13.6588Z" fill="#FDFDFD"/>
+												<path d="M19.9117 3.56013C12.7719 -3.34181 0.95585 1.66402 0.951208 11.4008C0.951208 13.3471 1.46099 15.2451 2.43228 16.9211L0.857422 22.6429L6.73992 21.1089C14.0803 25.0738 23.1394 19.8089 23.1431 11.4064C23.1431 8.45733 21.9917 5.68188 19.8978 3.59635L19.9117 3.56013ZM21.2879 11.3758C21.2823 18.4634 13.5018 22.8899 7.34814 19.2722L7.01385 19.0735L3.53171 19.9788L4.46492 16.5943L4.24299 16.246C0.413565 10.1501 4.81314 2.18309 12.0671 2.18309C13.2785 2.18004 14.4785 2.41729 15.5976 2.88111C16.7166 3.34492 17.7326 4.02609 18.5866 4.88518C19.4453 5.73349 20.1265 6.74434 20.5902 7.85873C21.054 8.97313 21.2912 10.1687 21.2879 11.3758Z" fill="#FDFDFD"/>
+												</svg>
+											</a>
+										</li>
+										<li>
+											<a href="#" class="blue_hover">
+												<svg width="20" height="17" viewBox="0 0 20 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path d="M1.23641 7.06994L18.5914 0.378436C19.3969 0.0874363 20.1004 0.574937 19.8394 1.79294L19.8409 1.79144L16.8859 15.7129C16.6669 16.6999 16.0804 16.9399 15.2599 16.4749L10.7599 13.1584L8.58941 15.2494C8.3494 15.4894 8.14691 15.6919 7.68191 15.6919L8.00141 11.1124L16.3414 3.57794C16.7044 3.25844 16.2604 3.07844 15.7819 3.39644L5.47541 9.88544L1.03241 8.49944C0.0679053 8.19344 0.0469056 7.53494 1.23641 7.06994Z" fill="#FDFDFD"/>
+												</svg>
+											</a>
+										</li>
+									</ul>
+								</div>
+								<a class="mail_link" href="mailto:martenson@bk.ru">
+									<svg width="24" height="18" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M21.75 0H2.25002C1.00928 0 0 1.00928 0 2.25002V15.75C0 16.9907 1.00928 18 2.25002 18H21.75C22.9907 18 24 16.9907 24 15.75V2.25002C24 1.00928 22.9907 0 21.75 0ZM21.75 1.49999C21.8519 1.49999 21.9488 1.52114 22.0374 1.55806L12 10.2576L1.9625 1.55806C2.05354 1.51989 2.15125 1.50015 2.24997 1.49999H21.75ZM21.75 16.5H2.25002C1.8362 16.5 1.49999 16.1638 1.49999 15.75V3.14282L11.5085 11.8169C11.6499 11.9392 11.825 12 12 12C12.175 12 12.3501 11.9392 12.4915 11.8169L22.5 3.14282V15.75C22.5 16.1638 22.1638 16.5 21.75 16.5Z" fill="#AA7AD2"/>
+									</svg>
 								</a>
+							</div>
+							<div class="dr_contacts">
+								<a href="mailto:martenson@bk.ru" class="mail_link_hover">martenson@bk.ru</a>
+								<a class="tel_link" href="tel:+79811620170">+7(981) 162 01 70</a>
 							</div>
 						</div>
 					</div>
-					<div>
-						<a class="tel_link" href="tel:+79811620170">+7(981) 162 01 70</a>
-					</div>
 				</div>
 				<div class="resbtn_wrapp">
-					<button type="button" class="respBtn">
-						<svg width="36" height="37" viewBox="0 0 36 37" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path d="M9 7.70002C9 6.70595 9.80592 5.90002 10.8 5.90002L30.4734 5.90002C31.4675 5.90002 32.2734 6.70595 32.2734 7.70002C32.2734 8.6941 31.4675 9.50002 30.4734 9.50002H10.8C9.80592 9.50002 9 8.69403 9 7.70002ZM34.2 16.7H1.8C0.805922 16.7 0 17.506 0 18.5C0 19.4941 0.805922 20.3 1.8 20.3H34.2C35.1941 20.3 36 19.4941 36 18.5C36 17.506 35.1941 16.7 34.2 16.7ZM23.9695 27.5H5.30859C4.31459 27.5 3.50859 28.3059 3.50859 29.3C3.50859 30.294 4.31459 31.1 5.30859 31.1H23.9695C24.9636 31.1 25.7695 30.294 25.7695 29.3C25.7695 28.3059 24.9636 27.5 23.9695 27.5Z" fill="#71727A"/>
-						</svg>
-					</button>
+					<a type="button" class="respBtn">
+						<div>
+							<p>Меню</p>
+						</div>
+						<div>
+							<span></span>
+							<span></span>
+							<span></span>
+						</div>
+					</a>
 				</div>
 			</div>
-		</div>								
+		</div>
+		<!-- Modal Nav -->
+		<div class="modal_nav">
+			<div class="modal_nav_inner">
+				<div class="modal_nav_content">
+					<button type="button" class="closeModalNav">
+						<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<rect x="1.73242" y="0.805511" width="30.4408" height="2.08909" transform="rotate(45 1.73242 0.805511)" fill="#977AD2"/>
+							<rect x="0.255859" y="22.3304" width="30.4408" height="2.08909" transform="rotate(-45 0.255859 22.3304)" fill="#977AD2"/>
+						</svg>
+					</button>
+					<div class="row">
+						<div class="novisible_700">
+							<div class="modal_nav_header">
+								<h3>Главное меню</h3>
+							</div>
+						</div>
+						<div class="visible_700">
+							<div class="resp_nax_header">
+								<div>
+									<a href="#" class="logo">
+										<img src="img/logo.svg" alt="" loading="logo" />
+									</a>
+								</div>
+								<div>
+									<a href="#" class="brif_link">Скачать БРИФ</a>
+								</div>
+							</div>
+						</div>
+						<div class="tree_cols_nav">
+							<div>
+								<ul>
+									<li><a href="#">Главная</a></li>
+									<li><a href="#">Создание сайтов</a></li>
+									<li><a href="#">Дизайн & брендбук</a></li>
+								</ul>
+							</div>
+							<div>
+								<ul>
+									<li><a href="#">Создание логотипа</a></li>
+									<li><a href="#">Вопрос-ответ</a></li>
+									<li><a href="#">Портфолио</a></li>
+								</ul>
+							</div>
+							<div>
+								<ul>
+									<li><a href="#">Услуги</a></li>
+									<li><a href="#">О нас</a></li>
+									<li><a href="#">Контакты</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="modal_nav_footer_wrapp">
+					<div class="modal_nav_footer">
+						<div class="novisible_700">
+							<div class="modal_nav_title">
+								<h2>Digital Creator</h2>
+							</div>
+							<a href="#" class="nav_pill">
+								<div class="gradient">
+									<p>Давайте обсудим Ваш проект</p>
+								</div>
+								<div>
+									<p>Давайте обсудим Ваш проект</p>
+								</div>
+							</a>
+						</div>
+						<div class="visible_700">
+							<ul class="nav_list">
+								<li>
+									<a href="mailto:martensonsvetlana@ya.ru">
+										<svg width="19" height="14" viewBox="0 0 19 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M16.4082 13.3845H1.98346C1.51459 13.384 1.06509 13.1975 0.733564 12.8659C0.402042 12.5344 0.21558 12.0848 0.215088 11.616V2.70738C0.21558 2.23852 0.402042 1.78899 0.733564 1.45744C1.06509 1.12589 1.51459 0.93938 1.98346 0.938843H16.4082C16.8771 0.93938 17.3266 1.12589 17.6581 1.45744C17.9896 1.78899 18.1761 2.23852 18.1766 2.70738V11.616C18.1761 12.0848 17.9896 12.5344 17.6581 12.8659C17.3266 13.1975 16.8771 13.384 16.4082 13.3845ZM1.98346 1.61476C1.69379 1.61507 1.41607 1.73029 1.21126 1.93514C1.00645 2.13998 0.891273 2.41771 0.891005 2.70738V11.616C0.891273 11.9056 1.00645 12.1834 1.21126 12.3882C1.41607 12.5931 1.69379 12.7083 1.98346 12.7086H16.4082C16.6979 12.7083 16.9756 12.5931 17.1804 12.3882C17.3852 12.1834 17.5004 11.9056 17.5007 11.616V2.70738C17.5004 2.41771 17.3852 2.13998 17.1804 1.93514C16.9756 1.73029 16.6979 1.61507 16.4082 1.61476H1.98346Z" fill="#977AD2"/>
+										<path d="M9.19568 9.15036C9.1133 9.15041 9.03373 9.12036 8.97195 9.06587L0.827148 1.87614L1.27444 1.3692L9.19568 8.36224L17.1173 1.37005L17.5645 1.87698L9.41974 9.06672C9.3578 9.12106 9.27808 9.15082 9.19568 9.15036Z" fill="#977AD2"/>
+										<path d="M0.643311 12.3237L6.11486 6.08919L6.62332 6.53529L1.15177 12.7696L0.643311 12.3237ZM11.7853 6.52887L12.2936 6.08276L17.7653 12.3169L17.257 12.763L11.7853 6.52887Z" fill="#977AD2"/>
+										</svg>
+										martensonsvetlana@ya.ru
+									</a>
+								</li>
+								<li><a href="tel:+7(981) 162 01 70">+7(981) 162 01 70</a></li>
+							</ul>
+							<ul class="nav_list_2">
+								<li><a href="#">WhatsApp</a></li>
+								<li><a href="#">Telegram</a></li>
+								<li><a href="#">VK</a></li>
+								<li><a href="#">Behance</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- /Modal Nav -->
 	</header>
 	<!-- /Header -->
 	<!-- Content -->
@@ -144,9 +264,8 @@
 		<div class="row">
 			<div class="video_article">
 				<div>
-					<a href="#" class="video_btn">
+					<a href="#" class="video_btn" data-fancybox data-src="https://youtu.be/2Gg6Seob5Mg?si=lpVDcklm1Ngu9Y6e">
 						<img src="img/video_btn_text.svg" alt="" loading="lazy" />
-						<!-- video_tr.svg width="23" height="26" -->
 					</a>
 				</div>
 				<div>
@@ -438,7 +557,7 @@
 					</div>
 				</div>
 				<div>
-					<div class="pink_box">
+					<div class="pink_box footer_pink_link">
 						<div>
 							<a href="#" class="pink_link">Скачать БРИФ</a>
 						</div>
@@ -456,23 +575,44 @@
 		</div>
 		<div class="footer_bottom">
 			<div class="row">
-				<div class="footer_bottom_templ">
-					<div>
-						<p>Сopyright © All rights reserved 2007-2024</p>
+				<div class="novisible_480">
+					<div class="footer_bottom_templ">
+						<div>
+							<p>Сopyright © All rights reserved 2007-2024</p>
+						</div>
+						<div>
+							<div class="footer_inline">
+								<div>
+									<a href="tel:+79811620170" class="tel_link_2">+7(981) 162 01 70</a>
+								</div>
+								<div>
+									<ul class="soc_list">
+										<li><a href="#" data-hover-color = "#07A724">WhatsApp</a></li>
+										<li><a href="#" data-hover-color = "#0998E6">Telegram</a></li>
+										<li><a href="#" data-hover-color = "#2693E0">VK</a></li>
+										<li><a href="#" data-hover-color = "#3779F4">Behance </a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
 					</div>
-					<div>
-						<div class="footer_inline">
-							<div>
-								<a href="tel:+79811620170" class="tel_link_2">+7(981) 162 01 70</a>
-							</div>
-							<div>
-								<ul class="soc_list">
-									<li><a href="#">WhatsApp</a></li>
-									<li><a href="#">Telegram</a></li>
-									<li><a href="#">VK</a></li>
-									<li><a href="#">Behance </a></li>
-								</ul>
-							</div>
+				</div>
+				<div class="visible_480">
+					<div class="resp_footer_templ">
+						<div>
+							<a href="tel:+79811620170" class="resp_tel_link">+7(981) 162 01 70</a>
+						</div>
+						<ul class="resp_soc_links">
+							<li><a href="#" class="green">WhatsApp</a></li>
+							<li><a href="#" class="blue">Telegram</a></li>
+						</ul>
+						<ul class="resp_soc_links_2">
+							<li><a href="#" data-hover-color = "#2693E0">VK</a></li>
+							<li><a href="#" data-hover-color = "#F981FF">Instagram</a></li>
+							<li><a href="#" data-hover-color = "#3779F4">Behance</a></li>
+						</ul>
+						<div class="corp_resp">
+							<p>Сopyright © All rights reserved 2007-2024</p>
 						</div>
 					</div>
 				</div>
@@ -480,11 +620,72 @@
 		</div>
 	</footer>
 	<!-- /Footer -->
+	<!-- Popup -->
+	<div class="popup" data-popup = "callback">
+		<button type="button" class="close">
+			<svg role="presentation" class="t-popup__close-icon" width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="#fff" fill-rule="evenodd"><rect transform="translate(11.313708, 11.313708) rotate(-45.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect><rect transform="translate(11.313708, 11.313708) rotate(-315.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect></g></svg>
+		</button>
+		<div class="popup_content">
+			<div class="popup_title">
+				<h3>Заполните форму</h3>
+				<p>Укажите, пожалуйста, ваши контакты для связи</p>
+			</div>
+			<div class="popup_input_wrapp">
+				<input type="text" name="#" placeholder="Ваше имя" />
+			</div>
+			<div class="popup_input_wrapp">
+				<input type="text" name="#" placeholder="Почта" />
+			</div>
+			<div class="popup_input_wrapp">
+				<input type="tel" name="#" placeholder="Телефон" />
+			</div>
+			<div class="popup_input_wrapp">
+				<select name="#">
+					<option value="">Тип проекта</option>
+					<option value="Разработка сайта">Разработка сайта</option>
+					<option value="Редизайн">Редизайн</option>
+					<option value="Логотип">Логотип</option>
+					<option value="Брендбук">Брендбук</option>
+					<option value="Другое">Другое</option>
+				</select>
+			</div>
+			<div class="checkboxes_wrapp">
+				<h3>Какой способ связи вам подходит?</h3>
+				<div class="checkboxes">
+					<div>
+						<label class="checkbox" for="ch_1">
+							<input id="ch_1" type="radio" name="messager" />
+							<span>Telegram</span>
+						</label>
+					</div>
+					<div>
+						<label class="checkbox" for="ch_2">
+							<input id="ch_2" type="radio" name="messager" />
+							<span>WhatsApp</span>
+						</label>
+					</div>
+					<div>
+						<label class="checkbox" for="ch_3">
+							<input id="ch_3" type="radio" name="messager" />
+							<span>E-mail</span>
+						</label>
+					</div>
+				</div>
+			</div>
+			<button type="submit" class="subBtnPopup">Отправить</button>
+		</div>
+	</div>
+	<div class="popup_bg"></div>
+	<!-- /Popup -->
 	</div>
 	<link rel="stylesheet" type="text/css" href="responsive.css">
 	<link rel="stylesheet" type="text/css" href="vendors/css/fancybox.css">
+	<link rel="stylesheet" type="text/css" href="vendors/css/slick.css">
 	<script src="vendors/js/jquery.js"></script>
 	<script src="vendors/js/fancybox.js"></script>
+	<script src="vendors/js/slick.min.js"></script>
+	<script src="vendors/js/inputmask.js"></script>
+	<script src="vendors/js/marquee.js"></script>
 	<script src="js/scripts.js"></script>
 </body>
 </html>

@@ -485,7 +485,7 @@
 					</div>
 				</div>
 				<div>
-					<div class="pink_box">
+					<div class="pink_box footer_pink_link">
 						<div>
 							<a href="#" class="pink_link">Скачать БРИФ</a>
 						</div>
@@ -503,23 +503,44 @@
 		</div>
 		<div class="footer_bottom">
 			<div class="row">
-				<div class="footer_bottom_templ">
-					<div>
-						<p>Сopyright © All rights reserved 2007-2024</p>
+				<div class="novisible_480">
+					<div class="footer_bottom_templ">
+						<div>
+							<p>Сopyright © All rights reserved 2007-2024</p>
+						</div>
+						<div>
+							<div class="footer_inline">
+								<div>
+									<a href="tel:+79811620170" class="tel_link_2">+7(981) 162 01 70</a>
+								</div>
+								<div>
+									<ul class="soc_list">
+										<li><a href="#" data-hover-color = "#07A724">WhatsApp</a></li>
+										<li><a href="#" data-hover-color = "#0998E6">Telegram</a></li>
+										<li><a href="#" data-hover-color = "#2693E0">VK</a></li>
+										<li><a href="#" data-hover-color = "#3779F4">Behance </a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
 					</div>
-					<div>
-						<div class="footer_inline">
-							<div>
-								<a href="tel:+79811620170" class="tel_link_2">+7(981) 162 01 70</a>
-							</div>
-							<div>
-								<ul class="soc_list">
-									<li><a href="#">WhatsApp</a></li>
-									<li><a href="#">Telegram</a></li>
-									<li><a href="#">VK</a></li>
-									<li><a href="#">Behance </a></li>
-								</ul>
-							</div>
+				</div>
+				<div class="visible_480">
+					<div class="resp_footer_templ">
+						<div>
+							<a href="tel:+79811620170" class="resp_tel_link">+7(981) 162 01 70</a>
+						</div>
+						<ul class="resp_soc_links">
+							<li><a href="#" class="green">WhatsApp</a></li>
+							<li><a href="#" class="blue">Telegram</a></li>
+						</ul>
+						<ul class="resp_soc_links_2">
+							<li><a href="#" data-hover-color = "#2693E0">VK</a></li>
+							<li><a href="#" data-hover-color = "#F981FF">Instagram</a></li>
+							<li><a href="#" data-hover-color = "#3779F4">Behance</a></li>
+						</ul>
+						<div class="corp_resp">
+							<p>Сopyright © All rights reserved 2007-2024</p>
 						</div>
 					</div>
 				</div>
@@ -527,11 +548,72 @@
 		</div>
 	</footer>
 	<!-- /Footer -->
+	<!-- Popup -->
+	<div class="popup" data-popup = "callback">
+		<button type="button" class="close">
+			<svg role="presentation" class="t-popup__close-icon" width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="#fff" fill-rule="evenodd"><rect transform="translate(11.313708, 11.313708) rotate(-45.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect><rect transform="translate(11.313708, 11.313708) rotate(-315.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect></g></svg>
+		</button>
+		<div class="popup_content">
+			<div class="popup_title">
+				<h3>Заполните форму</h3>
+				<p>Укажите, пожалуйста, ваши контакты для связи</p>
+			</div>
+			<div class="popup_input_wrapp">
+				<input type="text" name="#" placeholder="Ваше имя" />
+			</div>
+			<div class="popup_input_wrapp">
+				<input type="text" name="#" placeholder="Почта" />
+			</div>
+			<div class="popup_input_wrapp">
+				<input type="tel" name="#" placeholder="Телефон" />
+			</div>
+			<div class="popup_input_wrapp">
+				<select name="#">
+					<option value="">Тип проекта</option>
+					<option value="Разработка сайта">Разработка сайта</option>
+					<option value="Редизайн">Редизайн</option>
+					<option value="Логотип">Логотип</option>
+					<option value="Брендбук">Брендбук</option>
+					<option value="Другое">Другое</option>
+				</select>
+			</div>
+			<div class="checkboxes_wrapp">
+				<h3>Какой способ связи вам подходит?</h3>
+				<div class="checkboxes">
+					<div>
+						<label class="checkbox" for="ch_1">
+							<input id="ch_1" type="radio" name="messager" />
+							<span>Telegram</span>
+						</label>
+					</div>
+					<div>
+						<label class="checkbox" for="ch_2">
+							<input id="ch_2" type="radio" name="messager" />
+							<span>WhatsApp</span>
+						</label>
+					</div>
+					<div>
+						<label class="checkbox" for="ch_3">
+							<input id="ch_3" type="radio" name="messager" />
+							<span>E-mail</span>
+						</label>
+					</div>
+				</div>
+			</div>
+			<button type="submit" class="subBtnPopup">Отправить</button>
+		</div>
+	</div>
+	<div class="popup_bg"></div>
+	<!-- /Popup -->
 	</div>
 	<link rel="stylesheet" type="text/css" href="responsive.css">
 	<link rel="stylesheet" type="text/css" href="vendors/css/fancybox.css">
+	<link rel="stylesheet" type="text/css" href="vendors/css/slick.css">
 	<script src="vendors/js/jquery.js"></script>
 	<script src="vendors/js/fancybox.js"></script>
+	<script src="vendors/js/slick.min.js"></script>
+	<script src="vendors/js/inputmask.js"></script>
+	<script src="vendors/js/marquee.js"></script>
 	<script src="js/scripts.js"></script>
 </body>
 </html>
