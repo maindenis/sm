@@ -29,7 +29,7 @@
 				<div class="novisible_700">
 					<div class="inlines">
 						<div class="novisible_600">
-							<a href="#" class="pink_link">Скачать БРИФ</a>
+							<a href="#" class="pink_link" data-popup-link = "brif">Скачать БРИФ</a>
 						</div>
 						<div class="dr_contacts_wrapp" id="headerContact">
 							<div class="icons_dr_wrapp">
@@ -103,7 +103,7 @@
 									</a>
 								</div>
 								<div>
-									<a href="#" class="brif_link">Скачать БРИФ</a>
+									<a href="#" class="brif_link" data-popup-link = "brif">Скачать БРИФ</a>
 								</div>
 							</div>
 						</div>
@@ -1046,7 +1046,7 @@
 				<div>
 					<div class="pink_box footer_pink_link">
 						<div>
-							<a href="#" class="pink_link">Скачать БРИФ</a>
+							<a href="#" class="pink_link" data-popup-link = "brif">Скачать БРИФ</a>
 						</div>
 						<div>
 							<a class="mail_link" href="mailto:">
@@ -1107,6 +1107,15 @@
 		</div>
 	</footer>
 	<!-- /Footer -->
+	<!-- Callback Btn -->
+	<a href="#" class="callbackFixed" data-popup-link = "callback">
+		<img class="callbackFixed_logo" src="img/callback.svg" alt="" loading="lazy" />
+		<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+		<path d="M15.6208 1.57253C15.6209 1.02025 15.1732 0.572495 14.6209 0.572445L5.62093 0.571645C5.06865 0.571596 4.62089 1.01927 4.62084 1.57156C4.6208 2.12384 5.06847 2.5716 5.62076 2.57165L13.6208 2.57236L13.62 10.5724C13.62 11.1246 14.0677 11.5724 14.62 11.5724C15.1722 11.5725 15.62 11.1248 15.62 10.5725L15.6208 1.57253ZM1.99269 15.6124L15.3279 2.27962L13.9138 0.865276L0.578601 14.1981L1.99269 15.6124Z" fill="white"/>
+		</svg>
+		<p>Обсудить проект</p>
+	</a>
+	<!-- /Callback Btn -->
 	<!-- Popup -->
 	<div class="popup" data-popup = "callback">
 		<button type="button" class="close">
@@ -1162,6 +1171,39 @@
 			<div class="subBtnPopup_wrapp">
 				<button type="submit" class="subBtnPopup">Отправить</button>
 			</div>
+		</div>
+	</div>
+	<div class="popup" data-popup = "brif">
+		<div class="popup_content popup_content_brif">
+			<button type="button" class="close">
+				<svg role="presentation" class="t-popup__close-icon" width="23px" height="23px" viewBox="0 0 23 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="#fff" fill-rule="evenodd"><rect transform="translate(11.313708, 11.313708) rotate(-45.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect><rect transform="translate(11.313708, 11.313708) rotate(-315.000000) translate(-11.313708, -11.313708) " x="10.3137085" y="-3.6862915" width="2" height="30"></rect></g></svg>
+			</button>
+			<ul class="brif_list">
+				<li>
+					<a href="#">
+						Бриф на сайт
+						<svg width="18" height="8" viewBox="0 0 18 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M17.3536 4.35355C17.5488 4.15829 17.5488 3.84171 17.3536 3.64645L14.1716 0.464466C13.9763 0.269204 13.6597 0.269204 13.4645 0.464466C13.2692 0.659728 13.2692 0.976311 13.4645 1.17157L16.2929 4L13.4645 6.82843C13.2692 7.02369 13.2692 7.34027 13.4645 7.53553C13.6597 7.7308 13.9763 7.7308 14.1716 7.53553L17.3536 4.35355ZM0 4.5H17V3.5H0V4.5Z" fill="#71727A"/>
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						Бриф на логотип
+						<svg width="18" height="8" viewBox="0 0 18 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M17.3536 4.35355C17.5488 4.15829 17.5488 3.84171 17.3536 3.64645L14.1716 0.464466C13.9763 0.269204 13.6597 0.269204 13.4645 0.464466C13.2692 0.659728 13.2692 0.976311 13.4645 1.17157L16.2929 4L13.4645 6.82843C13.2692 7.02369 13.2692 7.34027 13.4645 7.53553C13.6597 7.7308 13.9763 7.7308 14.1716 7.53553L17.3536 4.35355ZM0 4.5H17V3.5H0V4.5Z" fill="#71727A"/>
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						Бриф на Брендбук/Фирменный стиль
+						<svg width="18" height="8" viewBox="0 0 18 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M17.3536 4.35355C17.5488 4.15829 17.5488 3.84171 17.3536 3.64645L14.1716 0.464466C13.9763 0.269204 13.6597 0.269204 13.4645 0.464466C13.2692 0.659728 13.2692 0.976311 13.4645 1.17157L16.2929 4L13.4645 6.82843C13.2692 7.02369 13.2692 7.34027 13.4645 7.53553C13.6597 7.7308 13.9763 7.7308 14.1716 7.53553L17.3536 4.35355ZM0 4.5H17V3.5H0V4.5Z" fill="#71727A"/>
+						</svg>
+					</a>
+				</li>
+			</ul>
 		</div>
 	</div>
 	<div class="popup_bg"></div>

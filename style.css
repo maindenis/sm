@@ -4988,4 +4988,141 @@ body.fixed {
     background: linear-gradient(180deg, #CA2EFF 0%, #CD3EFD 23%, #B716ED 100%), #AA7AD2;
 }
 
+.popup_content_brif {
+    max-width: 817px;
+    display: inline-flex !important;
+    align-items: center;
+    min-height: 520px;
+    padding: 47px 120px 33px 120px
+}
+
+.popup_content_brif > * {
+    width: 100%;
+}
+
+.brif_list li {
+    padding: 8px 0;
+}
+
+.brif_list li a {
+    display: inline-flex;
+    align-items: center;
+    font-size: 21px;
+    line-height: 28px;
+    color: #71727A;
+    -webkit-transition-property: color;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: color;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: color;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: color;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: color;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.brif_list li a:hover {
+    color: #977AD2;
+}
+
+.brif_list li a svg {
+    margin: 0 0 0 10px;
+}
+
+.brif_list li a svg path {
+    -webkit-transition-property: fill;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: fill;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: fill;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: fill;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: fill;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.brif_list li a:hover svg path {
+    fill: #977AD2;
+}
+
+.popup_content_brif .close {
+    position: absolute;
+    top: 37px !important;
+    right: 56px !important;
+}
+
+.popup_content_brif .close svg g {
+    fill: #977AD2;
+}
+
 /*-- /Popup --*/
+
+/*-- Callback Btn --*/
+
+.callbackFixed {
+    display: block;
+    width: 110px;
+    height: 110px;
+    padding: 7px 0 0 0;
+    border-radius: 50%;
+    text-align: center;
+    position: fixed;
+    bottom: 30px;
+    right: 80px;
+    z-index: 6;
+    overflow: hidden;
+    background: linear-gradient(180deg, #C47FFA 0%, #BE7EF1 23%, #AA7AD2 100%), #B57AD2;
+    animation: callbackFixed 3s infinite linear;
+}
+
+@keyframes callbackFixed {
+    0% {
+        bottom: 30px;
+    }
+    50% {
+        bottom: 130px;
+    } 
+    100% {
+        bottom: 30px;
+    }
+}
+
+.callbackFixed_logo {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.callbackFixed p {
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFF;
+}
+
+/*-- /Callback Btn --*/

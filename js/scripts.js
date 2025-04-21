@@ -271,10 +271,14 @@ $(document).ready(function() {
     $( ".price_thumb" ).bind({
       mouseenter: function() {
         $(this).addClass( "active" );
+        parent = $(this).closest(".price_thumb_wrapp");
         dr = $(this).find(".dr_content_price_height");
         height = $(this).find(".dr_content_price").outerHeight();
+        parent.css({
+            "z-index" : "3"
+        });
         dr.stop().animate({
-            "height" : height + "px"
+            "height" : height + "px",
         }, 300, function() {
             dr.css({
                 "height" : "auto"
@@ -285,9 +289,14 @@ $(document).ready(function() {
         $(this).removeClass( "active" );
         dr = $(this).find(".dr_content_price_height");
         height = $(this).find(".dr_content_price").outerHeight();
+        parent = $(this).closest(".price_thumb_wrapp");
         dr.stop().animate({
             "height" : "0"
-        }, 300);
+        }, 500, function() {
+            parent.css({
+                "z-index" : "1"
+            });
+        });
       }
     });
 

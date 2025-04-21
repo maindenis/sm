@@ -1766,6 +1766,42 @@ h3 {
 
 /*-- /Footer --*/
 
+/*-- Callback Btn --*/
+
+.callbackFixed {
+    display: block;
+    width: 60px;
+    height: 60px;
+    animation: callbackFixed 3s infinite linear;
+    padding-top: 14px;
+    right: 30px;
+}
+
+@keyframes callbackFixed {
+    0% {
+        bottom: 20px;
+    }
+    50% {
+        bottom: 60px;
+    } 
+    100% {
+        bottom: 20px;
+    }
+}
+.callbackFixed p {
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.callbackFixed svg {
+    width: 10px;
+    margin: -7px auto 0 auto;
+    height: 10px;
+    display: block;
+}
+
+/*-- /Callback Btn --*/
+
 }
 
 @media only screen and (max-width: 767px) {
@@ -2351,6 +2387,19 @@ h1.promo_h1_3 {
 
 /*-- /Footer --*/
 
+/*-- Popup --*/
+
+.popup_content {
+    background: #FDFDFD;
+}
+
+.popup_content_brif {
+    height: auto;
+    min-height: auto;
+}
+
+/*-- /Popup --*/
+
 }
 
 @media only screen and (max-width: 700px) {
@@ -2742,6 +2791,22 @@ h1.promo_h1_3 {
 
 .close svg g {
     fill: #977AD2;
+}
+
+.brif_list li {
+    padding: 5px 0;
+    line-height: 1;
+}
+
+.brif_list li a {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.popup_content_brif .close {
+    position: absolute;
+    top: 18px !important;
+    right: 28px !important;
 }
 
 /*-- /Popup --*/
