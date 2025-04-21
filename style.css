@@ -1149,9 +1149,9 @@ textarea:focus {
 .promo_thumb video {
     width: 110%;
     position: absolute;
-    top: 50%;
+    top: 0;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 0);
     z-index: 2;
 }
 
@@ -1408,7 +1408,7 @@ textarea:focus {
     transition-timing-function: ease;
 }
 
-.tab_radio:checked + .tab {
+.tab_radio:checked+.tab {
     height: auto;
     overflow: none;
     opacity: 1;
@@ -2729,6 +2729,17 @@ p.pl_text span {
     z-index: 3;
 }
 
+.promo_2_h2 {
+    display: block;
+    white-space: nowrap;
+    font-weight: 900;
+    font-size: 95px;
+    line-height: 1;
+    opacity: .2;
+    text-transform: uppercase;
+    color: #fff;
+}
+
 /*-- /Section 3 - About Page --*/
 
 /*-- Section 4 - About Page --*/
@@ -2807,10 +2818,6 @@ p.pl_text span {
 
 /*-- Section 1 - Logo Page --*/
 
-.logo_article {
-
-}
-
 .logo_article > div:nth-child(1) > div {
     max-width: 590px;
 }
@@ -2821,10 +2828,7 @@ p.pl_text span {
 
 .logotypes_articles {
     padding-bottom: 48px;
-}
-
-.logotypes_articles_title {
-
+    overflow: hidden;
 }
 
 .logotypes_articles_title h3 {
@@ -2942,12 +2946,19 @@ p.pl_text span {
     padding: 10px 25px;
 }
 
+.logos_inline > div img {
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}
+
 /*-- /Section 1 - Logo Page --*/
 
 /*-- Section 2 - Logo Page --*/
 
 .sect_2_lp {
     padding-top: 89px;
+    overflow: hidden;
 }
 
 .sect_2_lp .article {
@@ -2982,6 +2993,7 @@ p.pl_text span {
 
 .sect_3_lp {
     padding-top: 50px;
+    overflow: hidden;
 }
 
 .logo_creater_list_wrapp {
@@ -3053,6 +3065,7 @@ p.pl_text span {
 
 .bb_promo {
     position: relative;
+    overflow: hidden;
 }
 
 .promo_h1_3 {
@@ -3136,15 +3149,27 @@ p.pl_text span {
 }
 
 .video_btn img {
+    display: block;
+    width: 100%;
+    height: auto;
+    animation: videoCircle 12s infinite linear;
+}
 
+@keyframes videoCircle {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(-360deg);
+    }
 }
 
 /*-- /Section 2 - BrnadBook Page --*/
 
 /*-- Section 3 - BrnadBook Page --*/
 
-.article.brandbok_2 {
-
+.sect_3_bb {
+    overflow: hidden;
 }
 
 .article.brandbok_2 p.small {
@@ -3202,6 +3227,29 @@ p.pl_text span {
 
 .brandbok_3 > div:nth-child(1) p a {
     color: #977AD2;
+    -webkit-transition-property: color;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: color;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: color;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: color;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: color;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.brandbok_3 > div:nth-child(1) p a:hover {
+    color: #CA2EFF;
 }
 
 .brandbok_3 > div:nth-child(2) img {
@@ -3235,6 +3283,8 @@ p.pl_text span {
 .brandbok_4 > div:nth-child(1) img {
     width: calc(100% + 147px);
     margin-left: -163px;
+    object-fit: cover;
+    object-position: center;
 }
 
 .brandbok_4 > div:nth-child(2) > div {
@@ -3254,26 +3304,37 @@ p.pl_text span {
 
 .brandbok_4 p a {
     color: #977AD2;
+    -webkit-transition-property: color;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: color;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: color;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: color;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: color;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.brandbok_4 p a:hover {
+    color: #CA2EFF;
 }
 
 /*-- /Section 3 - BrnadBook Page --*/
 
 /*-- Section 4 - BrnadBook Page --*/
 
-.sect_4_bb {
-
-}
-
 .sect_4_bb .article.brandbok_4 {
     padding-top: 57px;
-}
-
-.article.brandbok_4 > div:nth-child(1) {
-
-}
-
-.article.brandbok_4 > div:nth-child(2) {
-
 }
 
 .brandbok_tree_cols {
@@ -3285,6 +3346,7 @@ p.pl_text span {
 .brandbok_tree_cols > div:nth-child(1) {
     width: calc(50% - 246px);
     padding-top: 25px;
+    padding-right: 10px;
 }
 
 .brandbok_tree_cols > div:nth-child(2) {
@@ -3296,6 +3358,7 @@ p.pl_text span {
     align-items: flex-end;
     justify-content: flex-end;
     width: calc(50% - 246px);
+    padding-left: 10px;
 }
 
 .brandbok_tree_cols > div:nth-child(1) > div {
@@ -3334,6 +3397,29 @@ p.pl_text span {
     margin: 10px;
     background: #FDFDFD;
     border: 1px solid #D5D1D1;
+    -webkit-transition-property: border;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: border;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: border;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: border;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: border;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.brandbok_thumb:hover {
+    border: 1px solid #977AD2;
 }
 
 .brandbok_thumb p {
@@ -3344,6 +3430,29 @@ p.pl_text span {
 
 .brandbok_thumb p span {
     color: #292A2E;
+    -webkit-transition-property: color;
+    -webkit-transition-duration: .3s;
+    -webkit-transition-timing-function: ease;
+
+    -moz-transition-property: color;
+    -moz-transition-duration: .3s;
+    -moz-transition-timing-function: ease;
+
+    -ms-transition-property: color;
+    -ms-transition-duration: .3s;
+    -ms-transition-timing-function: ease;
+
+    -o-transition-property: color;
+    -o-transition-duration: .3s;
+    -o-transition-timing-function: ease;
+
+    transition-property: color;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.brandbok_thumb:hover p span {
+    color: #977AD2;
 }
 
 .brandbok_tree_cols ul {
@@ -3389,10 +3498,7 @@ p.pl_text span {
 
 .sect_5_bb {
     padding: 90px 0 30px 0;
-}
-
-.sect_5_bb .h2_wrapp {
-
+    overflow: hidden;
 }
 
 .brandbok_thumbs_2 {
@@ -3822,10 +3928,6 @@ p.pl_text span {
 
 .brandbok_article > div:nth-child(2).fixed_height {
     height: 768px;
-}
-
-.hovder_dr_items {
-
 }
 
 .hovder_dr_item {

@@ -160,6 +160,14 @@ h1 {
 
 /*-- /Section 6 - Digital Page --*/
 
+/*-- Section 1 - About Page --*/
+
+.about_promo_img {
+    width: 30%;
+}
+
+/*-- /Section 1 - About Page --*/
+
 }
 
 @media only screen and (max-width: 1450px) {
@@ -384,6 +392,22 @@ h1 {
 
 /*-- /Section 3 - About Page --*/
 
+/*-- Section 2 - BrnadBook Page --*/
+
+.video_article {
+    padding: 15px 0 20px 0;
+}
+
+.video_article > div:nth-child(1) {
+    width: 235px;
+}
+
+.video_article > div:nth-child(2) {
+    width: calc(100% - 235px);
+}
+
+/*-- /Section 2 - BrnadBook Page --*/
+
 }
 
 @media only screen and (max-width: 1240px) {
@@ -532,6 +556,56 @@ h1 {
 }
 
 /*-- /Section 3 - Digital Page --*/
+
+/*-- Section 1 - About Page --*/
+
+.about_promo > div:nth-child(1) > div {
+    max-width: 300px;
+}
+
+.about_promo > div:nth-child(2) > div {
+    max-width: 316px;
+}
+
+.about_promo h3 {
+    padding-bottom: 22px;
+    font-size: 36px;
+    line-height: 46px;
+}
+
+.about_promo p,
+.about_promo p a {
+    font-size: 24px;
+    line-height: 35px;
+}
+
+/*-- /Section 1 - About Page --*/
+
+/*-- Section 1 - BrnadBook Page --*/
+
+.article.brandbok h2 {
+    font-size: 53px;
+    line-height: 58px;
+}
+
+/*-- /Section 1 - BrnadBook Page --*/
+
+/*-- Section 8 - Main Page --*/
+
+.brandbok_img_box_2_inner p {
+    font-size: 24px;
+    line-height: 37px;
+}
+
+/*-- /Section 8 - Main Page --*/
+
+/*-- Section 1 - Logo Page --*/
+
+.logos_inline > div img {
+    max-width: 200px;
+}
+
+/*-- /Section 1 - Logo Page --*/
 
 /*-- Footer --*/
 
@@ -744,10 +818,6 @@ h2 {
     min-height: 541px;
 }
 
-.about_promo > div:nth-child(2) > div {
-    max-width: 400px;
-}
-
 .about_promo p,
 .about_promo p a {
     font-size: 24px;
@@ -761,7 +831,7 @@ h2 {
 }
 
 .about_promo_img {
-    width: 100%;
+    width: 30%;
     max-width: 470px;
     height: 500px;
     border-radius: 80px 0 0 0;
@@ -833,6 +903,27 @@ h2 {
 }
 
 /*-- /Section 3 - About Page --*/
+
+/*-- Section 4 - BrnadBook Page --*/
+
+.brandbok_tree_cols > div:nth-child(1) {
+    width: calc(50% - 190px);
+}
+
+.brandbok_tree_cols > div:nth-child(2) {
+    width: 380px;
+}
+
+.brandbok_tree_cols > div:nth-child(3) {
+    width: calc(50% - 190px);
+}
+
+.logo_creater_list li {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/*-- /Section 4 - BrnadBook Page --*/
 
 /*-- Footer --*/
 
@@ -1118,6 +1209,132 @@ h1 {
 
 /*-- /Section 5 - About Page --*/
 
+/*-- Section 3 - BrnadBook Page --*/
+
+.brandbok_3 {
+    align-items: center;
+}
+
+.brandbok_3 > div:nth-child(1) p {
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.brandbok_3 > div:nth-child(1) p a {
+    font-size: 20px;
+    line-height: 35px; 
+}
+
+.brandbok_3 > div:nth-child(1) {
+    width: 49%;
+    padding: 10px 20px 10px 0;
+}
+
+.brandbok_3 > div:nth-child(2) {
+    width: 51%;
+    min-height: 330px;
+}
+
+.brandbok_4 {
+    align-items: center;
+    padding: 25px 0 25px 0;
+}
+
+.brandbok_4 > div:nth-child(2) {
+    padding: 10px 0 10px 20px;
+}
+
+.brandbok_4 p {
+    padding: 10px 0;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+.brandbok_4 p a {
+    font-size: 20px;
+    line-height: 35px;
+}
+
+/*-- /Section 3 - BrnadBook Page --*/
+
+/*-- Section 4 - BrnadBook Page --*/
+
+.article h2 {
+    font-size: 54px;
+    line-height: 60px;
+}
+
+.sect_4_bb .article.brandbok_4 {
+    padding-top: 20px;
+}
+
+.brandbok_4 > div:nth-child(2) {
+    padding: 0;
+}
+
+.brandbok_4 > div:nth-child(2) > div {
+    max-width: 100%;
+}
+
+/*-- /Section 4 - BrnadBook Page --*/
+
+/*-- Section 1 - Logo Page --*/
+
+.logotype_article {
+    padding: 20px 0 20px 0;
+}
+
+.logotype_article > div:nth-child(1) {
+    width: 100%;
+    padding: 10px 0 10px 0;
+}
+
+.logotype_article > div:nth-child(2) {
+    width: 100%;
+    padding: 10px 0 10px 0;
+}
+
+.logotype_article_two_cols p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.logotype_article > div:nth-child(1) p {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.logotype_article > div:nth-child(1) h3 {
+    padding: 10px 0 10px 0;
+    font-size: 26px;
+}
+
+/*-- /Section 1 - Logo Page --*/
+
+/*-- Section 2 - Logo Page --*/
+
+.sect_2_lp {
+    padding-top: 29px;
+}
+
+.lp_thumbs {
+    padding: 0 0 25px 0;
+}
+
+.lp_thumb {
+    width: calc(50% - 70px);
+}
+
+/*-- /Section 2 - Logo Page --*/
+
+/*-- Section 3 - Logo Page --*/
+
+.sect_3_lp .article br {
+    display: none;
+}
+
+/*-- /Section 3 - Logo Page --*/
+
 }
 
 @media only screen and (max-width: 900px) {
@@ -1352,6 +1569,193 @@ h3 {
 }
 
 /*-- /Section 2 - About Page --*/
+
+/*-- Section 2 - About Page --*/
+
+.promo_2_h2 {
+    font-size: 95px;
+    font-size: 75px;
+    bottom: -21px;
+}
+
+/*-- /Section 2 - About Page --*/
+
+/*-- Section 2 - BrnadBook Page --*/
+
+.video_article > div:nth-child(1) {
+    width: 170px;
+}
+
+.video_article > div:nth-child(2) {
+    width: calc(100% - 170px);
+}
+
+.video_btn {
+    width: 150px;
+    height: 150px;
+}
+
+.video_article p {
+    padding: 10px 0;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+/*-- /Section 2 - BrnadBook Page --*/
+
+/*-- Section 3 - BrnadBook Page --*/
+
+.brandbok_3_wrapp {
+    padding: 10px 0 10px 0;
+}
+
+.brandbok_3_title h2 {
+    font-size: 37px;
+    line-height: 50px;
+}
+
+/*-- /Section 3 - BrnadBook Page --*/
+
+/*-- Section 4 - BrnadBook Page --*/
+
+.brandbok_4 {
+    padding: 0;
+}
+
+.brandbok_tree_cols > div:nth-child(1) {
+    width: 100%;
+    padding-top: 0;
+    padding-right: 0;
+}
+
+.brandbok_tree_cols > div:nth-child(2) {
+    display: none;
+}
+
+.brandbok_tree_cols > div:nth-child(3) {
+    width: 100%;
+    padding: 0;
+}
+
+.brandbok_tree_cols > div:nth-child(1) > div {
+    max-width: 100%;
+    width: 100%;
+}
+
+.brandbok_tree_cols > div:nth-child(3) > div {
+    max-width: 100%;
+    width: 100%;
+    top: 0;
+}
+
+.brandbok_thumbs {
+    margin: 0 -10px 0 -10px;
+    padding: 20px 0 20px 0;
+}
+
+.brandbok_thumb {
+    margin: 10px;
+    padding: 21px 3%;
+}
+
+.brandbok_thumb p {
+    font-size: 19px;
+    line-height: 38px;
+}
+
+.brandbok_thumb p span {
+    font-size: 22px;
+}
+
+/*-- /Section 4 - BrnadBook Page --*/
+
+/*-- Section 6 - BrnadBook Page --*/
+
+.brandbok_article > div:nth-child(2) {
+    width: calc(100% + 20px);
+    left: -20px;
+}
+
+.brandbok_img_box_2_inner {
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    top: 20px;
+    left: 20px;
+    transform: translate(0, 0);
+    padding: 25px 35px 10px 35px;
+    border-radius: 80px 0 0 0;
+}
+
+.brandbok_img_box_2_inner > div {
+    top: 0;
+    transform: translate(0, 0);
+}
+
+/*-- /Section 6 - BrnadBook Page --*/
+
+/*-- Section 1 - Logo Page --*/
+
+.logotype_article_two_cols > div:nth-child(odd) {
+    width: 100%;
+    padding: 10px 0 10px 0;
+}
+
+.logotype_article_two_cols > div:nth-child(even) {
+    width: 100%;
+    padding: 10px 0 10px 0;
+}
+
+.logotype_article_two_cols > div:nth-child(odd) > div {
+    max-width: 100%;
+}
+
+.logotype_article_two_cols > div:nth-child(even) > div {
+    max-width: 100%;
+}
+
+.logos_inline {
+    justify-content: center;
+    margin: 0 -15px;
+}
+
+.logos_inline > div {
+    padding: 10px 15px;
+}
+
+.logos_inline > div img {
+    max-width: 160px;
+    max-height: 80px;
+}
+
+.logotype_article_2 h3 {
+    padding-bottom: 5px;
+    font-size: 26px;
+}
+
+.logotypes_articles_title h3 {
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.logotype_article > div:nth-child(1) h3 {
+    font-size: 24px;
+}
+
+/*-- /Section 1 - Logo Page --*/
+
+/*-- Section 2 - Logo Page --*/
+
+.lp_thumb {
+    margin: 10px 35px;
+}
+
+.lp_thumb p {
+    font-size: 18px;
+    line-height: 29px;
+}
+
+/*-- /Section 2 - Logo Page --*/
 
 /*-- Footer --*/
 
@@ -1750,6 +2154,186 @@ h3 {
 
 /*-- /Section 5 - About Page --*/
 
+/*-- Section 1 - BrnadBook Page --*/
+
+.article.brandbok {
+    padding: 0 0 15px 0;
+}
+
+.article.brandbok > div:nth-child(1),
+.article.brandbok > div:nth-child(2) {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.article.brandbok br {
+    display: none;
+}
+
+.article.brandbok > div:nth-child(2) > div {
+    max-width: 100%;
+}
+
+.article.brandbok h2 {
+    font-size: 26px;
+    line-height: 41px;
+}
+
+h1.promo_h1_3 {
+    font-size: 60px;
+}
+
+.promo_h1_3 {
+    padding: 0 0 0 5%;
+    top: 77px;
+}
+
+/*-- /Section 1 - BrnadBook Page --*/
+
+/*-- Section 3 - BrnadBook Page --*/
+
+.brandbok_3_title h2 {
+    font-size: 28px;
+    line-height: 43px;
+}
+
+.brandbok_3 {
+    display: block\;
+}
+
+.brandbok_3 > div:nth-child(1) {
+    width: 100%;
+    padding: 10px 0;
+    order: 2;
+}
+
+.brandbok_3 > div:nth-child(2) {
+    width: 100%;
+    padding: 10px 0;
+    height: 350px;
+    order: 1;
+}
+
+.brandbok_3 > div:nth-child(2) img {
+    width: 100%;
+    height: 350px;
+}
+
+.brandbok_4 {
+    display: block;
+}
+
+.brandbok_4 > div:nth-child(1) {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.brandbok_4 > div:nth-child(2) {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.brandbok_4 > div:nth-child(1) img {
+    width: 100%;
+    margin-left: 0;
+    height: 350px;
+}
+
+.brandbok_4 > div:nth-child(2) > div {
+    max-width: 100%;
+}
+
+.brandbok_4 > div:nth-child(2) > div > div {
+    max-width: 100%;
+}
+
+/*-- /Section 3 - BrnadBook Page --*/
+
+/*-- Section 4 - BrnadBook Page --*/
+
+.brandbok_tree_cols {
+    padding: 5px 0 10px 0;
+}
+
+.brandbok_thumbs {
+    margin: 0;
+    padding: 20px 0 20px 0;
+}
+
+.brandbok_thumb {
+    margin: 10px 0;
+    width: 100%;
+    max-width: 100%;
+    padding: 20px 20px;
+}
+
+/*-- /Section 4 - BrnadBook Page --*/
+
+/*-- Section 5 - BrnadBook Page --*/
+
+.sect_5_bb {
+    padding: 40px 0 20px 0;
+}
+
+.brandbok_thumbs_2 {
+    padding: 15px 0 20px 0;
+}
+
+.brandbok_thumb_2 {
+    margin: 10px 40px;
+}
+
+.brandbok_thumb_2 h3 {
+    padding-bottom: 0;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+/*-- /Section 5 - BrnadBook Page --*/
+
+/*-- Section 2 - Logo Page --*/
+
+.sect_2_lp .article > div:nth-child(2) {
+    display: none;
+}
+
+.lp_thumbs {
+    margin: 0;
+}
+
+.lp_thumb {
+    margin: 10px 0;
+    width: 100%;
+}
+
+/*-- /Section 2 - Logo Page --*/
+
+/*-- Section 3 - Logo Page --*/
+
+.sect_3_lp {
+    padding-top: 2px;
+}
+
+.sect_3_lp .article {
+    padding-bottom: 0;
+}
+
+.logo_creater_list {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.logo_creater_list li {
+    width: 100%;
+    margin: 5px 0;
+}
+
+.logo_creater_items_2_wrapp {
+    padding: 20px 0 0 0;
+}
+
+/*-- /Section 3 - Logo Page --*/
+
 /*-- Footer --*/
 
 .footer_templ > div:nth-child(2) {
@@ -2038,7 +2622,31 @@ h3 {
     padding-top: 100px;
 }
 
+.promo_2_h2 {
+    font-size: 52px;
+    bottom: -14px;
+}
+
 /*-- /Section 3 - About Page --*/
+
+/*-- Section 2 - BrnadBook Page --*/
+
+.video_article {
+    display: block;
+}
+
+.video_article > div:nth-child(1) {
+    width: 150px;
+    margin: 10px auto;
+    padding: 10px 0;
+}
+
+.video_article > div:nth-child(2) {
+    width: 100%;
+    padding: 10px 0;
+}
+
+/*-- /Section 2 - BrnadBook Page --*/
 
 /*-- Footer --*/
 
@@ -2396,6 +3004,72 @@ h2 {
 }
 
 /*-- /Section 1 - About Page --*/
+
+/*-- Section 3 - BrnadBook Page --*/
+
+.article.brandbok_2 p.small {
+    padding: 5px 0;
+    font-size: 17px;
+    line-height: 26px;
+}
+
+/*-- /Section 3 - BrnadBook Page --*/
+
+/*-- Section 6 - BrnadBook Page --*/
+
+.sect_6_bb {
+    padding: 10px 0 10px 0;
+}
+
+.brandbok_article > div:nth-child(1) {
+    padding: 50px 0 0 0;
+}
+
+.brandbok_img_box_2_inner {
+    padding: 44px 35px 10px 35px;
+}
+
+.brandbok_img_box_2_inner p {
+    font-size: 20px;
+    line-height: 34px;
+}
+
+.brandbok_img_box_2_inner h3 {
+    padding-bottom: 10px;
+    font-size: 26px;
+    line-height: 34px;
+}
+
+.item_thumb_title {
+    padding: 25px 0 10px 0;
+}
+
+/*-- /Section 6 - BrnadBook Page --*/
+
+/*-- Section 8 - Main Page --*/
+
+.sect_6_bb + .sect_8_mp .callback_two_cols {
+    padding-top: 30px;
+}
+
+/*-- /Section 8 - Main Page --*/
+
+/*-- Section 1 - Logo Page --*/
+
+.logotypes_articles {
+    padding-bottom: 5px;
+}
+
+.logos_inline {
+    margin: 0 -10px;
+}
+
+.logos_inline > div img {
+    max-width: 124px;
+    max-height: 80px;
+}
+
+/*-- /Section 1 - Logo Page --*/
 
 }
 
@@ -2905,6 +3579,11 @@ h2 {
 
 .promo_2_img {
     width: 100%;
+}
+
+.promo_2_h2 {
+    font-size: 37px;
+    bottom: -33px;
 }
 
 /*-- /Section 3 - About Page --*/

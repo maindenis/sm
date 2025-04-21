@@ -488,8 +488,15 @@
 							<form>
 								<div class="formn_templ">
 									<div>
-										<!-- пересмотреть прозрачность -->
-										<p><a href="#">Почта</a> или <a href="#">телефон</a></p>
+										<p class="hideCallText"><a href="#" class="form_link" id="mailCall">Почта</a> или <a href="#" class="form_link" id="telCall">телефон</a></p>
+										<div data-id="telCall" class="form_js_input form_tel_input">
+											<p class="pl_text"><span data-sub-id="mailCall">your@email.ru</span> или</p>
+											<input type="tel" placeholder="x(xxx)xxx-xx-xx" />
+										</div>
+										<div data-id="mailCall" class="form_js_input form_tel_input">
+											<p class="pl_text"><span data-sub-id="telCall">x(xxx)xxx-xx-xx</span> или</p>
+											<input type="email" placeholder="your@email.ru" />
+										</div>
 									</div>
 									<div>
 										<button type="submit" class="subBtn">отправить</button>
