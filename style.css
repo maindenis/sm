@@ -4810,6 +4810,7 @@ body.fixed {
     top: 20px;
     right: 30px;
     cursor: pointer;
+    z-index: 5;
 }
 
 .popup_bg {
@@ -4937,8 +4938,16 @@ body.fixed {
     color: #977AD2;
 }
 
+.popup_content {
+    white-space: normal;
+}
+
 .popup_content .subBtnPopup {
     margin: 47px 0 10px 0;
+}
+
+.subBtnPopup_wrapp .subBtnPopup {
+    width: 100%;
 }
 
 .subBtnPopup {

@@ -2670,6 +2670,82 @@ h1.promo_h1_3 {
 
 /*-- /Footer --*/
 
+/*-- Popup --*/
+
+.popup {
+    padding: 0;
+}
+
+.popup_content {
+    width: calc(90vw - 1px);
+    border-radius: 0px 50px 0px 0px;
+    margin: 20px auto;
+    padding: 47px 20px 33px 20px;
+}
+
+.popup_title {
+    text-align: left;
+}
+
+.popup_input_wrapp {
+    margin: 10px 0;
+}
+
+.popup_input_wrapp input {
+    height: 54px;
+    padding: 0 10px;
+    font-size: 18px;
+    line-height: 53px;
+}
+
+.popup_title h3 {
+    padding: 0;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.popup_title p {
+    padding-bottom: 3px;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.checkboxes_wrapp {
+    padding: 16px 0 10px 0;
+}
+
+.checkboxes_wrapp h3 {
+    padding: 5px 0 10px 0;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.subBtnPopup_wrapp {
+    text-align: center;
+}
+
+.popup_content .subBtnPopup {
+    display: inline-flex;
+    margin: 16px 0 10px 0;
+    min-width: 256px;
+    width: auto;
+}
+
+.subBtnPopup {
+    min-height: 52px;
+}
+
+.popup .close {
+    top: 35px;
+    right: 50px;
+}
+
+.close svg g {
+    fill: #977AD2;
+}
+
+/*-- /Popup --*/
+
 }
 
 @media only screen and (max-width: 600px) {
